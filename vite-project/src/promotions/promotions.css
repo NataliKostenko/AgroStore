@@ -1,0 +1,30 @@
+.backgroundPromoutions {
+	background-image: url('/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	width: 100%;
+}
+
+.promoutions {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2%;
+}
+
+
+.promoutions .dot {
+	width: 6px;
+	height: 16px;
+	background: #FFFFFF33;
+	border-radius: 20px;
+
+}
+
+.promoutions .dot:hover {
+	height: 30px;
+	background: #FFFFFF;
+
+}

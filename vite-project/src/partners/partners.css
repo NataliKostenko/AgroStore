@@ -1,0 +1,22 @@
+.partners {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2%;
+}
+
+.partners .cardBody {
+	width: 255px;
+	height: 125px;
+	border-radius: 20px;
+	background: #FFF;
+}
+
+.partners .cardBody .cardBodyItem {
+	display: none;
+}
+
+.partners .cardBody .cardText {
+	display: none;
+}

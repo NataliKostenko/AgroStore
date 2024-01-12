@@ -1,0 +1,20 @@
+.imgSection2 {
+	background-image: url('/screen2.png');
+	background-size: cover;
+	background-position: center;
+	height: 560px;
+	width: 685px;
+	position: relative;
+}
+
+.leaf1Section2 {
+	position: absolute;
+	top: 315px;
+	left: -50px
+}
+
+.leaf2Section2 {
+	position: absolute;
+	bottom: -15px;
+	left: 80px;
+}

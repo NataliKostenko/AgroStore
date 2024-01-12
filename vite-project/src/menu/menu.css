@@ -1,0 +1,29 @@
+.menu {
+	height: 50px;
+	background-color: #1E6140;
+	display: flex;
+	justify-content: center;
+}
+
+.menuList,
+.blockButton {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 50%;
+
+}
+
+.li {
+	list-style-type: none;
+	color: #FFFFFF;
+	font-family: Montserrat;
+	line-height: 19.5px;
+	size: 16px;
+	font-weight: 300;
+}
+
+.a {
+	text-decoration: none;
+	cursor: pointer;
+}

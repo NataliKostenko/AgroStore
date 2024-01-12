@@ -1,0 +1,35 @@
+.phoneBlock {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+	width: 300px;
+}
+
+.itemsPhone {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
+}
+
+.itemsPhone p {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #84BE51;
+}
+
+.itemsPhone a {
+	text-decoration: none;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000000;
+	cursor: pointer;
+}

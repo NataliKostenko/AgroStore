@@ -1,0 +1,70 @@
+.cardBody {
+	width: 255px;
+	height: 355px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ffff;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
+}
+
+.cardBody:hover {
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cardBodyItem {
+	margin-left: 75%;
+}
+
+
+.cardText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 235px;
+	height: 150px;
+	border-radius: 20px;
+	background-color: #8C32130F;
+}
+
+
+.cardText p {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: left;
+	color: #000000;
+}
+
+.cardItems {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+.price {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.price .cost {
+	color: #84BE51;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0;
+}
+
+.cardText svg {
+	border: none;
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}

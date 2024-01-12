@@ -1,0 +1,23 @@
+.counter {
+	display: flex;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #84BE51;
+	margin-left: -30px;
+	margin-bottom: 20px;
+}
+
+.counterNum {
+	color: #FFF;
+	text-align: center;
+	font-variant-numeric: lining-nums proportional-nums;
+	font-family: Montserrat;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	font-variant: all-small-caps;
+}

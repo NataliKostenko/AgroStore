@@ -1,0 +1,28 @@
+.imgHead {
+	background-image: url('/head.png');
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	width: 810px;
+	position: relative;
+}
+
+.headImg {}
+
+.leaf1 {
+	position: absolute;
+	top: 430px;
+	left: -155px;
+}
+
+.leaf2 {
+	position: absolute;
+	bottom: 50px;
+	left: -120px;
+}
+
+.leaf3 {
+	position: absolute;
+	top: -100px;
+	right: 0;
+}

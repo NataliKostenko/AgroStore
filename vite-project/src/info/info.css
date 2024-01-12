@@ -1,0 +1,36 @@
+.infoBackground {
+	background-image: url('./bg2.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	/* height: auto;
+	width: 100%; */
+}
+
+.info {
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.info h1 {
+	color: #fff;
+}
+
+.infoText {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	height: 480px;
+	width: 43%;
+	margin: 0 auto;
+	background: rgb(0 0 0 / 15%);
+	border-radius: 35px;
+	padding: 3%;
+}
+
+.infoMargin {
+	margin-top: 3%;
+}

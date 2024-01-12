@@ -1,0 +1,26 @@
+	.circleArrow {
+		height: 70px;
+		width: 70px;
+		border: #84C551 solid 1px;
+		color: #84C551;
+		border-radius: 50%;
+		background-color: transparent;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+
+
+	}
+
+
+	.circleArrow:hover {
+
+		background-color: #84C551;
+		color: #FFFFFF;
+
+	}
+
+	.circleArrow:hover path {
+		fill: #FFFFFF
+	}

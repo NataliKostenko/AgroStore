@@ -1,0 +1,19 @@
+.h1 {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	color: black;
+}
+
+.h1 h1 {
+	font-weight: 700;
+	margin-bottom: 0;
+	font-size: 55px;
+	font-family: Montserrat;
+	line-height: 67px;
+	letter-spacing: 1px;
+}
+
+.h1 img {
+	height: 50px;
+}

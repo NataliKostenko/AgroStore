@@ -1,0 +1,42 @@
+.menuFooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 50%;
+}
+
+.infoMenu {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+
+.title {
+	color: #000;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-top: 0;
+	margin-bottom: 20px;
+
+}
+
+.infoMenu .menuList {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	width: 225px;
+
+}
+
+.infoMenu .menuList li {
+	color: #000;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 25px;
+}
