@@ -1,4 +1,4 @@
-.cardBody {
+.card {
 	width: 255px;
 	height: 355px;
 	border-radius: 20px;
@@ -8,13 +8,14 @@
 	align-items: center;
 	background-color: #ffff;
 	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
+	cursor: pointer;
 }
 
-.cardBody:hover {
+.card:hover {
 	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
 }
 
-.cardBodyItem {
+.cardItem {
 	margin-left: 75%;
 }
 

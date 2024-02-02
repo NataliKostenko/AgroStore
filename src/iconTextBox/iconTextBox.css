@@ -12,7 +12,7 @@
 	margin-left: 20px;
 }
 
-.itemsPhone p {
+.textPhone {
 	font-family: Montserrat;
 	font-size: 14px;
 	font-weight: 700;
@@ -22,7 +22,7 @@
 	color: #84BE51;
 }
 
-.itemsPhone a {
+.numberPhone {
 	text-decoration: none;
 	font-family: Montserrat;
 	font-size: 16px;
@@ -32,4 +32,5 @@
 	text-align: left;
 	color: #000000;
 	cursor: pointer;
+	margin-bottom: 0;
 }

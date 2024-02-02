@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import './icon.css'
 
 export default function Icon(props) {
@@ -10,4 +11,11 @@ export default function Icon(props) {
 			{props.svg}
 		</div></a>
 		{props.counter}</>
+}
+Icon.propTypes = {
+	border: PropTypes.string,
+	boxShadow: PropTypes.string,
+	link: PropTypes.string,
+	svg: PropTypes.any,
+	counter: PropTypes.any
 }

@@ -41,7 +41,3 @@ footer .circleArrow {
 	bottom: 0px;
 	position: absolute;
 }
-
-footer .circleArrow svg {
-	transform: rotate(90deg);
-}

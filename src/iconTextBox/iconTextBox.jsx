@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import './iconTextBox.css'
 
 export default function IconTextBox(props) {
@@ -5,10 +6,16 @@ export default function IconTextBox(props) {
 		<div className='phoneBlock'>
 			{props.element}
 			<div className='itemsPhone'>
-				<a href={props.link}>{props.number}</a>
-				<p>{props.text}</p>
+				<p className="numberPhone">{props.number}</p>
+				<p className="textPhone" >{props.text}</p>
 			</div>
 		</div>
 
 	)
+}
+IconTextBox.propTypes = {
+	element: PropTypes.any,
+	link: PropTypes.string,
+	number: PropTypes.string,
+	text: PropTypes.string
 }

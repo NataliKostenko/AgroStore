@@ -12,7 +12,7 @@ export default function Footer() {
 			</div>
 			<hr></hr>
 			<p className='year'>© 2022 DAT</p>
-			<Arrow />
+			<Arrow angle={90} />
 		</footer>
 	)
 }

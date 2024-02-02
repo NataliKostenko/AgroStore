@@ -46,3 +46,7 @@
 .circle:hover path {
 	fill: #FFFFFF
 }
+
+a {
+	cursor: pointer;
+}
