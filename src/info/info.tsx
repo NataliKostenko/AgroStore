@@ -1,6 +1,5 @@
 import './info.css'
 import H1 from '../H1/h1'
-import * as React from 'react'
 
 export default function Info() {
 	return (

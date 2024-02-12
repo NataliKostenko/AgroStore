@@ -1,12 +1,9 @@
-import * as React from 'react'
 import './imgSection1.css'
-import Leaf1 from '/leaf1.png'
-import Leaf2 from '/leaf2.png'
-import Leaf3 from '/leaf3.png'
+
 export default function ImgSection1() {
 	return <div className='imgHead'>
-		<img src={Leaf3} className='leaf3' />
-		<img src={Leaf1} className='leaf1' />
-		<img src={Leaf2} className='leaf2' />
+		<img src='/leaf3.png' className='leaf3' />
+		<img src='/leaf1.png' className='leaf1' />
+		<img src='/leaf2.png' className='leaf2' />
 	</div>
 }

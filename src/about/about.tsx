@@ -2,7 +2,6 @@ import './about.css';
 import ImgSection2 from '../imgSection2/imgSection2'
 import H1 from '../H1/h1'
 import ButtonBody from '../buttonBody/buttonBody';
-//import * as React from 'react';
 
 export default function About() {
 	return (
@@ -33,7 +32,7 @@ export default function About() {
 						рослинництва...</p>
 
 				</div>
-				<ButtonBody text={'Докладніше'} />
+				<ButtonBody text={'Докладніше'} link={undefined} />
 			</div>
 		</div>
 	)

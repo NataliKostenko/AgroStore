@@ -27,3 +27,7 @@
 	text-decoration: none;
 	cursor: pointer;
 }
+
+.menu .menuList .li .a {
+	color: #FFFFFF;
+}

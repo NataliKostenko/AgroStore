@@ -5,17 +5,19 @@ import './slider.css'
 import Arrow from '../arrow/arrow'
 import Dots from '../dots/dots'
 import SlidesList from '../slideList/slidesList'
-import * as React from "react";
 
-const Slider = function ({ url, width, height, autoPlay, autoPlayTime, number, slideNumber, slidesCount, }) {
+const Slider = function (props: {
+	url: string, width: number, height: number,
+	autoPlay: boolean, autoPlayTime: number, number: number, slideNumber: number, slidesCount: number
+}) {
 	const [items, setItems] = useState([]);
 	const [curentSlideNumber, setCurentSlideNumber] = useState(0);
 	const [touchPosition, setTouchPosition] = useState(null);
 
 	useEffect(() => {
 		const loadData = async () => {
-			if (!url) throw new Error('URL for slider must be provided.');
-			const images = await fetch(url)
+			if (!props.url) throw new Error('URL for slider must be provided.');
+			const images = await fetch(props.url)
 				.then((images) => images.json());
 			setItems(images);
 		};
@@ -32,16 +34,16 @@ const Slider = function ({ url, width, height, autoPlay, autoPlayTime, number, s
 		setCurentSlideNumber(slideNumber);
 	};
 
-	const goToSlide = (number) => {
-		setCurentSlideNumber(number % items.length);
+	const goToSlide = (slideNumber: number) => {
+		setCurentSlideNumber(slideNumber % items.length);
 	};
 
-	const handleTouchStart = (e) => {
+	const handleTouchStart = (e: { touches: { clientX: any; }[]; }) => {
 		const touchDown = e.touches[0].clientX;
 		setTouchPosition(touchDown);
 	};
 
-	const handleTouchMove = (e) => {
+	const handleTouchMove = (e: { touches: { clientX: any; }[]; }) => {
 		if (touchPosition === null) {
 			return;
 		}
@@ -57,10 +59,10 @@ const Slider = function ({ url, width, height, autoPlay, autoPlayTime, number, s
 	};
 
 	useEffect(() => {
-		if (!autoPlay) return;
+		if (!props.autoPlay) return;
 		const interval = setInterval(() => {
 			changeSlide(1);
-		}, autoPlayTime);
+		}, props.autoPlayTime);
 		return () => {
 			clearInterval(interval);
 		};
@@ -68,10 +70,10 @@ const Slider = function ({ url, width, height, autoPlay, autoPlayTime, number, s
 
 	return (
 		<div
-			style={{ width, height }}
+			style={{ width: "100%", height: "100%" }}
 			className="slider"
-			onTouchStart={handleTouchStart}
-			onTouchMove={handleTouchMove}
+		//onTouchStart={handleTouchStart}
+		//onTouchMove={handleTouchMove}
 		>
 			<div className="display">
 				<Arrow angle={0} clickHandler={() => changeSlide(-1)} />
@@ -83,11 +85,11 @@ const Slider = function ({ url, width, height, autoPlay, autoPlayTime, number, s
 	);
 };
 
-Slider.defaultProps = {
+/* Slider.defaultProps = {
 	autoPlay: false,
 	autoPlayTime: 5000,
-	width: "100%",
-	height: "100%"
-};
+	width: 100,
+	height: 100
+}; */
 
 export default Slider;

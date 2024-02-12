@@ -1,6 +1,3 @@
-/* eslint-disable react/prop-types */
-//import PropTypes from "prop-types";
-import React from 'react';
 import './cardPartner.css'
 
 export default function CardPartner(props: { url: string; alt: string }) {
@@ -9,8 +6,3 @@ export default function CardPartner(props: { url: string; alt: string }) {
 	</div>
 }
 
-/* CardPartner.propTypes = {
-	url: PropTypes.string,
-	alt: PropTypes.string,
-	type: PropTypes.string
-} */

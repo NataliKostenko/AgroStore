@@ -1,22 +1,13 @@
-import PropTypes from "prop-types";
 import './iconTextBox.css'
-import * as React from "react";
 
-export default function IconTextBox(props) {
+export default function IconTextBox(props: { icon: any; mainText: string; secondaryText: string }) {
 	return (
-		<div className='phoneBlock'>
-			{props.element}
-			<div className='itemsPhone'>
-				<p className="numberPhone">{props.number}</p>
-				<p className="textPhone" >{props.text}</p>
+		<div className='iconTextBox'>
+			{props.icon}
+			<div className='textBox'>
+				<p className="mainText">{props.mainText}</p>
+				<p className="secondaryText" >{props.secondaryText}</p>
 			</div>
 		</div>
-
 	)
-}
-IconTextBox.propTypes = {
-	element: PropTypes.any,
-	link: PropTypes.string,
-	number: PropTypes.string,
-	text: PropTypes.string
 }

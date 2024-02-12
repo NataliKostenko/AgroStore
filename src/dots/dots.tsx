@@ -1,10 +1,7 @@
-/* eslint-disable react/prop-types */
-
-import * as React from 'react';
 import Dot from '../dot/dot';
 import './dots.css';
 
-export default function Dots(props) {
+export default function Dots(props: { slidesCount: number; handler: (arg0: number) => void; }) {
 	const dots = [];
 
 	for (let i = 0; i < props.slidesCount; i++) {

@@ -1,4 +1,4 @@
-.phoneBlock {
+.iconTextBox {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -6,13 +6,13 @@
 	width: 300px;
 }
 
-.itemsPhone {
+.textBox {
 	display: flex;
 	flex-direction: column;
 	margin-left: 20px;
 }
 
-.textPhone {
+.secondaryText {
 	font-family: Montserrat;
 	font-size: 14px;
 	font-weight: 700;
@@ -22,7 +22,7 @@
 	color: #84BE51;
 }
 
-.numberPhone {
+.mainText {
 	text-decoration: none;
 	font-family: Montserrat;
 	font-size: 16px;

@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Item from './itemMenu'
 
 export default function Menu() {
@@ -7,7 +6,7 @@ export default function Menu() {
 
 	return <div className='menu'>
 		<ul className='menuList'>
-			{items.map((item, index) => <Item item={item} key={index} />)}
+			{items.map((item, index) => <Item itemName={item} key={index} link={''} />)}
 		</ul>
 	</div>
 }

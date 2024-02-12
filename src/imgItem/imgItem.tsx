@@ -1,7 +1,6 @@
-import * as React from 'react'
 import './imgItem.css'
 
-export default function ImgItem(props) {
+export default function ImgItem(props: { img: any }) {
 	return (
 		<div className='imgItem'>
 			{props.img}

@@ -2,7 +2,6 @@ import './footerInfo.css'
 import Item from '../menu/itemMenu'
 import Phone from '../phone/phone';
 import MailBox from '../mailBox/mailBox'
-import * as React from 'react';
 
 export default function FooterInfo() {
 	const items = ['Про компанію', 'Оплата і доставка', 'Партнери'];
@@ -11,20 +10,20 @@ export default function FooterInfo() {
 		<div className='infoMenu'>
 			<h6 className='title'>Інформація</h6>
 			<ul className='menuList'>
-				{items.map((item, index) => <Item item={item} key={index} />)}
+				{items.map((item, index) => <Item itemName={item} key={index} link={''} />)}
 			</ul>
 		</div>
 		<div className='infoMenu'>
 			<h6 className='title'>Товари</h6>
 			<ul className='menuList'>
-				{items2.map((item, index) => <Item item={item} key={index} />)}
+				{items2.map((item, index) => <Item itemName={item} key={index} link={''} />)}
 			</ul>
 		</div>
 		<div className='infoMenu'>
 			<h6 className='title'>Контакти</h6>
 			<ul className='menuList'>
-				<Phone />
-				<MailBox />
+				<Phone numberPhone={'+38(097)254-333'} text={'Замовити дзвінок'} />
+				<MailBox email={'nnn@mm.com'} />
 			</ul>
 		</div>
 	</div>

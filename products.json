@@ -6,27 +6,81 @@
 			"alt": "photo",
 			"name": "Петунія Софістика F1",
 			"cost": 20
-		}
-	],
-	[
+		},
 		{
 			"type": "goods",
 			"url": "/ckop.png",
 			"alt": "photo",
 			"name": "Скор 250 ЕС к.э.",
 			"cost": 589
-		}
-	],
-	[
+		},
 		{
 			"type": "goods",
 			"url": "/ckop2.png",
 			"alt": "photo",
 			"name": "Скор 250 ЕС к.э.",
 			"cost": 200
+		},
+		{
+			"type": "goods",
+			"url": "/xopyc.png",
+			"alt": "photo",
+			"name": "Петунія Софістика F1",
+			"cost": 20
 		}
 	],
 	[
+		{
+			"type": "goods",
+			"url": "/petunya.png",
+			"alt": "photo",
+			"name": "Петунія Софістика F1",
+			"cost": 20
+		},
+		{
+			"type": "goods",
+			"url": "/ckop.png",
+			"alt": "photo",
+			"name": "Скор 250 ЕС к.э.",
+			"cost": 589
+		},
+		{
+			"type": "goods",
+			"url": "/ckop2.png",
+			"alt": "photo",
+			"name": "Скор 250 ЕС к.э.",
+			"cost": 200
+		},
+		{
+			"type": "goods",
+			"url": "/xopyc.png",
+			"alt": "photo",
+			"name": "Петунія Софістика F1",
+			"cost": 20
+		}
+	],
+	[
+		{
+			"type": "goods",
+			"url": "/petunya.png",
+			"alt": "photo",
+			"name": "Петунія Софістика F1",
+			"cost": 20
+		},
+		{
+			"type": "goods",
+			"url": "/ckop.png",
+			"alt": "photo",
+			"name": "Скор 250 ЕС к.э.",
+			"cost": 589
+		},
+		{
+			"type": "goods",
+			"url": "/ckop2.png",
+			"alt": "photo",
+			"name": "Скор 250 ЕС к.э.",
+			"cost": 200
+		},
 		{
 			"type": "goods",
 			"url": "/xopyc.png",

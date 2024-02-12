@@ -1,9 +1,7 @@
-/* eslint-disable react/prop-types */
-
-import * as React from 'react'
+import { MouseEventHandler } from 'react'
 import './arrow.css'
 
-export default function Arrow(props) {
+export default function Arrow(props: { clickHandler: MouseEventHandler<HTMLDivElement>; angle: number }) {
 
 	return <div className='circleArrow' onClick={props.clickHandler} >
 		<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ transform: `rotate(${props.angle}deg)` }}>

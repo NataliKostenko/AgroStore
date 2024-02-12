@@ -1,4 +1,3 @@
-import * as React from 'react';
 import ButtonBody from '../buttonBody/buttonBody';
 import H1 from '../H1/h1';
 import './section1BlockText1.css'
@@ -13,7 +12,7 @@ export default function Section1BlockText1() {
 			<p className='headTextItem'>
 				Основна сфера діяльності – дистрибуція насіння, засобів захисту рослин, мінеральних макро - та мікродобрив
 			</p>
-			<ButtonBody text={'Про компанію'} />
+			<ButtonBody text={'Про компанію'} link={undefined} />
 		</div>
 	</div>
 }

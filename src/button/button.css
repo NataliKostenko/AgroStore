@@ -19,12 +19,14 @@
 	text-transform: uppercase;
 }
 
+
 .button path {
 	fill: #84BE51;
 }
 
 .aButton {
 	text-decoration: none;
+	color: inherit;
 
 
 }
@@ -34,6 +36,10 @@
 	border: none;
 	color: #FFFFFF;
 }
+
+/* .aButton:hover {
+	color: #FFFFFF;
+} */
 
 .button:hover path {
 	fill: #FFFFFF;
