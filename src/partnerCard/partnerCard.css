@@ -1,0 +1,36 @@
+.partnerCard {
+	display: flex;
+	flex-direction: column;
+	width: 540px;
+	height: 285px;
+	margin-bottom: 2%;
+
+}
+
+.partnerCardBlock {
+	display: flex;
+	flex-direction: row;
+}
+
+.partnerLogo {
+	width: 255px;
+	height: 126px;
+	border-radius: 20px;
+	background-color: #fff;
+}
+
+.partnerTitle {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	color: black;
+}
+
+.partnerText {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #00000080;
+}

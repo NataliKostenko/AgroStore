@@ -4,10 +4,9 @@ import ButtonBar from '../buttonBar/buttonBar';
 
 export default function Header() {
 
-	return (<>
+	return <>
 		<Menu />
 		<SearchBar />
 		<ButtonBar />
 	</>
-	)
 }

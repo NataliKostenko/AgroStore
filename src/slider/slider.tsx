@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
 import './slider.css'
 import Arrow from '../arrow/arrow'
@@ -84,12 +82,4 @@ const Slider = function (props: {
 		</div>
 	);
 };
-
-/* Slider.defaultProps = {
-	autoPlay: false,
-	autoPlayTime: 5000,
-	width: 100,
-	height: 100
-}; */
-
 export default Slider;
