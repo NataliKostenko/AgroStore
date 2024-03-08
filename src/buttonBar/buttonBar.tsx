@@ -24,7 +24,7 @@ export default function ButtonBar() {
 			</defs>
 		</svg>} />,
 		text: 'Насіння',
-		link: '#'
+		link: './Seeds'
 	},
 	{
 		img: <ImgItem img={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -40,8 +40,8 @@ export default function ButtonBar() {
 				</clipPath>
 			</defs>
 		</svg>} />,
-		text: 'Засоби захисту рослиня',
-		link: '#'
+		text: 'Засоби захисту рослин',
+		link: './protection'
 	},
 	{
 		img: <ImgItem img={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -66,7 +66,7 @@ export default function ButtonBar() {
 			</defs>
 		</svg>} />,
 		text: 'Добрива',
-		link: '#'
+		link: './Fertilisers'
 	},
 	{
 		img: <ImgItem img={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -86,7 +86,7 @@ export default function ButtonBar() {
 			</defs>
 		</svg>} />,
 		text: 'Кормова група',
-		link: '#'
+		link: './Feed'
 	},
 	{
 		img: <ImgItem img={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -106,7 +106,7 @@ export default function ButtonBar() {
 			</defs>
 		</svg>} />,
 		text: 'Агроному в поміч',
-		link: '#'
+		link: './to help'
 	}]
 
 	return <div className='blockButton'>

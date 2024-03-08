@@ -1,0 +1,10 @@
+.pageCatalog {
+	display: flex;
+	flex-direction: row;
+}
+
+.sideBarCatalog {
+	display: flex;
+	flex-direction: column;
+	margin-right: 5%;
+}

@@ -1,4 +1,4 @@
-import Item from './itemMenu'
+import MenuItem from './menuItem'
 
 export default function Menu() {
 
@@ -42,7 +42,7 @@ export default function Menu() {
 
 	return <div className='menu'>
 		<ul className='menuList'>
-			{items.map((item, index) => <Item itemName={item.name} key={index} itemLink={item.link} />)}
+			{items.map((item, index) => <MenuItem itemName={item.name} key={index} itemLink={item.link} />)}
 		</ul>
 	</div>
 }

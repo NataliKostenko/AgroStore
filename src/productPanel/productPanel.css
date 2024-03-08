@@ -1,0 +1,16 @@
+.productPanel {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.productPanel .card {
+	margin-bottom: 5%;
+}
+
+.productPanelWrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

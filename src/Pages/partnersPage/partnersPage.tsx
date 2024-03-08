@@ -1,7 +1,7 @@
 import './partnersPage.css';
-import PartnerCard from '../partnerCard/partnerCard';
+import PartnerCard from '../../partnerCard/partnerCard';
 import { useEffect, useState } from 'react';
-import H1 from '../H1/h1'
+import H1 from '../../H1/h1'
 export default function PartnersPage(props: {
 	url: string
 }) {

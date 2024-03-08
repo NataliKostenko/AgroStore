@@ -1,0 +1,17 @@
+.breadcrumbs {
+	display: flex;
+	justify-content: center;
+}
+
+.breadcrumbs li {
+	list-style-type: none;
+	margin-right: 1%;
+}
+
+.breadcrumbs li::before {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color: #84be51;
+	content: "•";
+	padding-right: 7px;
+}

@@ -1,0 +1,40 @@
+.numberItem,
+.arrow {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid #E74E13;
+	color: #E74E13;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.numberItem {
+	margin-right: 10px;
+}
+
+.numberItem:hover {
+	background-color: #E74E13;
+	color: #fff;
+}
+
+.numberItem:hover path {
+	fill: #fff;
+}
+
+.numbersPanel {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.numberItemWrap {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+}

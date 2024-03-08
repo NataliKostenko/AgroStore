@@ -1,7 +1,7 @@
-import './about.css';
-import ImgSection2 from '../imgSection2/imgSection2'
-import H1 from '../H1/h1'
-import ButtonBody from '../buttonBody/buttonBody';
+import './aboutPage.css';
+import ImgSection2 from '../../imgSection2/imgSection2'
+import H1 from '../../H1/h1'
+import ButtonBody from '../../buttonBody/buttonBody';
 
 export default function About() {
 	return (

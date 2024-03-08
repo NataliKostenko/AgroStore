@@ -1,5 +1,5 @@
 import './footerInfo.css'
-import Item from '../menu/itemMenu'
+import MenuItem from '../menu/menuItem'
 import Phone from '../phone/phone';
 import MailBox from '../mailBox/mailBox'
 
@@ -42,13 +42,13 @@ export default function FooterInfo() {
 		<div className='infoMenu'>
 			<h6 className='title'>Інформація</h6>
 			<ul className='menuList'>
-				{items.map((item, index) => <Item itemName={item.name} key={index} itemLink={item.link} />)}
+				{items.map((item, index) => <MenuItem itemName={item.name} key={index} itemLink={item.link} />)}
 			</ul>
 		</div>
 		<div className='infoMenu'>
 			<h6 className='title'>Товари</h6>
 			<ul className='menuList'>
-				{items2.map((item, index) => <Item itemName={item.name} key={index} itemLink={item.link} />)}
+				{items2.map((item, index) => <MenuItem itemName={item.name} key={index} itemLink={item.link} />)}
 			</ul>
 		</div>
 		<div className='infoMenu'>

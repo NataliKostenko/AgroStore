@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import './buttonBody.css'
 
 export default function ButtonBody(props: {
-	link: any;
+	link: string;
 	text: string
 }) {
 	return <button className='buttonBody'>
-		<a className='aButtonBody' href={props.link}>
+		<Link className='aButtonBody' to={props.link}>
 			{props.text}
-		</a>
+		</Link>
 	</button>
 }
