@@ -22,7 +22,7 @@ export default function FooterInfo() {
 	},
 	{
 		name: 'Засоби захисту рослин',
-		link: './save'
+		link: './protection'
 	},
 	{
 		name: 'Насіння',

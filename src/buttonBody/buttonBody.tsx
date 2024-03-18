@@ -3,9 +3,10 @@ import './buttonBody.css'
 
 export default function ButtonBody(props: {
 	link: string;
-	text: string
+	text: string;
+	type: any;
 }) {
-	return <button className='buttonBody'>
+	return <button className='buttonBody' type={props.type}>
 		<Link className='aButtonBody' to={props.link}>
 			{props.text}
 		</Link>

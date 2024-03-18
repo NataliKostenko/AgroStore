@@ -1,0 +1,71 @@
+.registrationPage {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.registrationPageText {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+	width: 1000px;
+}
+
+.registrationForm {
+	width: 550px;
+}
+
+.registrationForm input {
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #00000033;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+
+.registrationForm .name,
+.surname,
+.phone,
+.mail {
+	width: 235px;
+}
+
+.registrationForm .name,
+.phone {
+	margin-right: 15px;
+}
+
+.registrationForm .password {
+	width: 510px;
+
+}
+
+.registrationPage button {
+	width: 540px;
+}
+
+.registrationPage span {
+	color: #84BE51;
+}
+
+.permission {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	color: #484848;
+	display: flex;
+}
+
+.permission input[type="checkbox"] {
+	border-radius: 3px;
+	width: 16px;
+	height: 16px;
+	padding: 1px
+}

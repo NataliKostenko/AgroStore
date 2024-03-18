@@ -12,7 +12,7 @@ export default function Section1BlockText1() {
 			<p className='headTextItem'>
 				Основна сфера діяльності – дистрибуція насіння, засобів захисту рослин, мінеральних макро - та мікродобрив
 			</p>
-			<ButtonBody text={'Про компанію'} link={undefined} />
+			<ButtonBody link={'./about'} text={'Про компанію'} />
 		</div>
 	</div>
 }

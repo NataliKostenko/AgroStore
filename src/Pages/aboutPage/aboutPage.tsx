@@ -32,7 +32,7 @@ export default function About() {
 						рослинництва...</p>
 
 				</div>
-				<ButtonBody text={'Докладніше'} link={undefined} />
+				<ButtonBody text={'Докладніше'} link={'./moreAboutCompany'} />
 			</div>
 		</div>
 	)

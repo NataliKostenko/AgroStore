@@ -5,7 +5,7 @@ export default function PlantsProtectingToolsItem(props: { url: string; alt: str
 	return <>
 		<div className='plantsProtectingToolsItem'>
 			<img src={props.url} alt={props.alt}></img>
-			<ButtonBody link={props.link} text={props.text} />
+			<ButtonBody link={props.link} text={props.text} type={undefined} />
 		</div>
 	</>
 }

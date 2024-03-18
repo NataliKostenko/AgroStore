@@ -1,0 +1,48 @@
+.dataAccountPage {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.dataAccountBlock {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.dataAccountForm {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 550px;
+	height: 260px;
+	margin-left: 75px
+}
+
+.dataAccountForm input {
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #00000033;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+
+.dataAccountForm .name,
+.surname,
+.phone,
+.mail {
+	width: 235px;
+}
+
+.dataAccountForm .name,
+.phone {
+	margin-right: 15px;
+}
+
+.dataAccountForm .address {
+	width: 510px;
+
+}

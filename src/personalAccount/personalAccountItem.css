@@ -1,0 +1,28 @@
+.personalAccountItem {
+	width: 400px;
+	height: 170px;
+	background-color: #1E6140;
+	border-radius: 20px;
+	margin: 2%;
+	cursor: pointer;
+}
+
+.personalAccountItemBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+}
+
+.personalAccountItemBox a {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-top: 20px;
+}

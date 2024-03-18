@@ -16,8 +16,10 @@ export default function PartnersPage(props: {
 		};
 		loadData();
 	}, []);
-	return <><H1 text={'Партнери'} />
+	return <div className='partnersPageWrap'>
+		<H1 text={'Партнери'} />
 		<div className='partnersPage'>
 			{items.map((item, index) => <PartnerCard url={item.url} alt={item.alt} title={item.title} text={item.text} key={index} />)}
-		</div></>
+		</div>
+	</div>
 }

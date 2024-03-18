@@ -33,11 +33,11 @@ export default function Menu() {
 	},
 	{
 		name: 'Вхід',
-		link: './entr'
+		link: './account'
 	},
 	{
 		name: 'Реестрація',
-		link: './registry'
+		link: './registration'
 	}];
 
 	return <div className='menu'>
