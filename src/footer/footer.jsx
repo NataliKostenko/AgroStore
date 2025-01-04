@@ -11,9 +11,6 @@ export default function Footer() {
 		</div>
 		<hr></hr>
 		<p className='year'>© 2024 DAT</p>
-		<a href='#'><Arrow angle={90}
-			clickHandler={function () { throw new Error('Function not implemented.') }}
-		/>
-		</a>
+		<a href='#'><Arrow angle={90} /></a>
 	</footer>
 }

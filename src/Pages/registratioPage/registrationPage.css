@@ -70,6 +70,10 @@
 	padding: 1px
 }
 
+input:required {
+	color: #e9573f;
+}
+
 @media screen and (max-width: 1024px) {
 	.registrationPage {
 		width: 85%;

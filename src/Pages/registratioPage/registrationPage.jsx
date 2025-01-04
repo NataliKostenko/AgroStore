@@ -16,11 +16,11 @@ export default function RegistrationPage() {
 		</p>
 
 		<form className='registrationForm'>
-			<input type='text' name='name' placeholder='Ім’я' className='name'></input>
+			<input type='text' name='name' placeholder='Ім’я &#42;' className='name' required></input>
 			<input type='text' name='surname' placeholder='Прізвище' className='surname'></input>
 			<input type='text' name='phone' placeholder='Телефон' className='phone'></input>
-			<input type='text' name='mail' placeholder='E-mail' className='mail'></input>
-			<input type='password' name='password' placeholder='Пароль' className='password'></input>
+			<input type='text' name='mail' placeholder='E-mail &#42;' className='mail' required></input>
+			<input type='password' name='password' placeholder='Пароль &#42;' className='password' required></input>
 			<input type='password' name='password' placeholder='Підтвердити пароль' className='password'></input>
 
 			<p className='permission'>
