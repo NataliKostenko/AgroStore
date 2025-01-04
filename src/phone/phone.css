@@ -1,4 +1,4 @@
-.phoneBlock {
+.phoneBiconTextBoxlock {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -6,13 +6,13 @@
 	width: 300px;
 }
 
-.itemsPhone {
+.itemtextBox {
 	display: flex;
 	flex-direction: column;
 	margin-left: 5%;
 }
 
-.itemsPhone p {
+.textBox p {
 	font-family: Montserrat;
 	font-size: 14px;
 	font-weight: 700;
@@ -22,7 +22,7 @@
 	color: #84BE51;
 }
 
-.itemsPhone a {
+.textBox a {
 	text-decoration: none;
 	font-family: Montserrat;
 	font-size: 16px;
@@ -33,3 +33,5 @@
 	color: #000000;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {}

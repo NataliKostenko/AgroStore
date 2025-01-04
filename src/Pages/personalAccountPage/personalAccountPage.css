@@ -1,0 +1,50 @@
+.personalAccountPage {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.personalAccountPageElements {
+	display: flex;
+	/* flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: baseline; */
+}
+
+.personalAccountPageBox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+	.personalAccountPage {
+		width: 95%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.personalAccountPageElements {
+		margin-bottom: 10%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.personalAccountPage {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.personalAccountPage .h1 {
+		width: min-content;
+	}
+
+}

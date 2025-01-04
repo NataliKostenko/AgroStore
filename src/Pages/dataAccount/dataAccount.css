@@ -1,0 +1,85 @@
+.dataAccountPage {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.dataAccountBlock {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.dataAccountForm {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 550px;
+	height: 260px;
+	margin-left: 75px;
+	margin-top: 4%;
+}
+
+.dataAccountForm input {
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #00000033;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+
+.dataAccountForm .name,
+.surname,
+.phone,
+.mail {
+	width: 235px;
+}
+
+.dataAccountForm .name,
+.phone {
+	margin-right: 15px;
+}
+
+.dataAccountForm .address {
+	width: 510px;
+
+}
+
+@media screen and (max-width: 600px) {
+	.dataAccountPage {
+		width: 90%;
+	}
+
+	.dataAccountBlock {
+		flex-direction: column;
+	}
+
+	.dataAccountForm {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		width: 100%;
+		height: auto;
+		margin-left: 0;
+		align-items: center;
+	}
+
+	.dataAccountForm .name,
+	.dataAccountForm .surname,
+	.dataAccountForm .phone,
+	.dataAccountForm .mail,
+	.dataAccountForm .address {
+		width: 100%;
+	}
+
+	.dataAccountForm .name,
+	.dataAccountForm .phone {
+		margin-right: 0;
+	}
+
+	.dataAccountPage .dataAccountForm .buttonBody {
+		width: 100%;
+	}
+}

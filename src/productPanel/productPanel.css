@@ -1,0 +1,60 @@
+.productPanel {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 2%;
+}
+
+.productPanel .card {
+	margin-bottom: 5%;
+}
+
+.productPanelWrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.productPanelSelect {
+	width: 260px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #00000033;
+	color: #00000080;
+	padding-left: 20px;
+	margin-left: 62%;
+}
+
+@media screen and (max-width: 1440px) {
+	.productPanelSelect {
+		margin-left: 45%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.productPanelSelect {
+		margin-top: 3%;
+		margin-left: 62%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.productPanelSelect {
+		margin-left: 45%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.productPanelSelect {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 5%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.productPanelSelect {
+		width: 250px;
+	}
+}

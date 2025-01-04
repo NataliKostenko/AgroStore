@@ -1,0 +1,13 @@
+.dot {
+	width: 6px;
+	height: 16px;
+	background: #8D32001A;
+	border-radius: 20px;
+
+}
+
+.dot:hover {
+	height: 30px;
+	background: #8D3200;
+
+}

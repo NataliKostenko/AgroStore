@@ -26,3 +26,36 @@
 	top: -100px;
 	right: 0;
 }
+
+@media screen and (max-width: 600px) {
+	.imgHead {
+		height: 400px;
+		width: 510px;
+		margin-top: 10%;
+	}
+
+	.leaf1 {
+		position: absolute;
+		top: 255px;
+		left: -50px;
+	}
+
+	.leaf2 {
+		position: absolute;
+		bottom: 80px;
+		left: -90px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.imgHead {
+		height: 200px;
+		width: 310px;
+	}
+
+	.leaf1,
+	.leaf2,
+	.leaf3 {
+		display: none;
+	}
+}

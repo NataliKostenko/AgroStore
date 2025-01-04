@@ -1,0 +1,14 @@
+{
+	"type": "goods",
+	"url": "/petunya.png",
+	"alt": "photo",
+	"name": "Петунія Софістика F1",
+	"cost": 20,
+	"amount": 1,
+	"stocked": "B наявності",
+	"id": 1,
+	"manufacturer": "ФМС Украина",
+	"logo": "/fmc.png",
+	"discription": "../#",
+	"unit": "шт"
+}

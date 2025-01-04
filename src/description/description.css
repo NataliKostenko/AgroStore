@@ -1,0 +1,18 @@
+.description {
+	font-family: Montserrat;
+	line-height: 25px;
+}
+
+.description .instruction {
+	list-style: none;
+}
+
+.description ul li span {
+	color: #1E6140;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+}

@@ -1,9 +1,14 @@
+import { Link } from 'react-router-dom';
 import './buttonBody.css'
 
 export default function ButtonBody(props) {
-	return <button className='buttonBody'>
-		<a className='aButtonBody' href={props.link}>
+
+	const style = {
+		width: props.width
+	}
+	return <button className='buttonBody' type={props.type} style={style} >
+		<Link className='aButtonBody' to={props.link}>
 			{props.text}
-		</a>
+		</Link>
 	</button>
 }

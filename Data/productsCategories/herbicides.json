@@ -1,0 +1,32 @@
+[
+	{
+		"type": "goods",
+		"url": "/petunya.png",
+		"alt": "photo",
+		"name": "Петунія Софістика F1",
+		"cost": 20,
+		"amount": 1,
+		"stocked": "B наявності",
+		"id": 1
+	},
+	{
+		"type": "goods",
+		"url": "/ckop.png",
+		"alt": "photo",
+		"name": "Скор 250 ЕС к.э.",
+		"cost": 589,
+		"amount": 1,
+		"stocked": "B наявності",
+		"id": 2
+	},
+	{
+		"type": "goods",
+		"url": "/ckop2.png",
+		"alt": "photo",
+		"name": "Скор 250 ЕС к.э.",
+		"cost": 200,
+		"amount": 1,
+		"stocked": "B наявності",
+		"id": 3
+	}
+]

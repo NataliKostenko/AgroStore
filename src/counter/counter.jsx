@@ -1,11 +1,8 @@
 import './counter.css'
-
-export default function Counter() {
-	return (
-		<div className='counter'>
-			<div className='counterNum'>
-				1
-			</div>
+export default function Counter({ count }) {
+	return <div className='counter'>
+		<div className='counterNum'>
+			{count}
 		</div>
-	)
+	</div>
 }

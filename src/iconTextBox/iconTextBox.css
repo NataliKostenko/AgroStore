@@ -1,4 +1,4 @@
-.phoneBlock {
+.iconTextBox {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -6,13 +6,15 @@
 	width: 300px;
 }
 
-.itemsPhone {
+.textBox {
 	display: flex;
 	flex-direction: column;
 	margin-left: 20px;
+	flex-wrap: wrap;
+	width: 70%;
 }
 
-.itemsPhone p {
+.secondaryText {
 	font-family: Montserrat;
 	font-size: 14px;
 	font-weight: 700;
@@ -22,7 +24,7 @@
 	color: #84BE51;
 }
 
-.itemsPhone a {
+.mainText {
 	text-decoration: none;
 	font-family: Montserrat;
 	font-size: 16px;
@@ -32,4 +34,17 @@
 	text-align: left;
 	color: #000000;
 	cursor: pointer;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.logoBlock .iconTextBox {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.logoBlock .iconTextBox {
+		display: none;
+	}
 }

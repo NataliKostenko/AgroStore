@@ -7,7 +7,7 @@
 	letter-spacing: 0em;
 	text-align: left;
 	color: #000000;
-	width: 31%;
+	width: 40%;
 }
 
 .headText h4 {
@@ -21,4 +21,16 @@
 	line-height: 21.94px;
 	color: #00000080;
 	margin-bottom: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+	.headText {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.headText {
+		width: 90%;
+	}
 }

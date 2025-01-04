@@ -1,10 +1,12 @@
 import './input.css'
-export default function Input({ value, setValue, type, placeholder }) {
+import { useState } from 'react';
+
+export default function Input(props) {
+	const [value, setValue] = useState('');
 
 	return <input className="input"
-		value={value}
-		onChange={event => setValue(event.target.value)}
-		type={type}
-		placeholder={placeholder}
-	/>
-};
+		type={props.type}
+		name={props.name}
+		placeholder={props.placeholder}
+		value={value} onChange={event => setValue(event.target.value)} />
+}

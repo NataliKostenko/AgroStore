@@ -6,8 +6,8 @@
 	flex-direction: column;
 	justify-content: center;
 	background-color: #84BE51;
-	margin-left: -30px;
-	margin-bottom: 20px;
+	margin-left: 30px;
+	margin-top: -45px;
 }
 
 .counterNum {

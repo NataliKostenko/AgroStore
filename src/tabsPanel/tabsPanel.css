@@ -1,0 +1,12 @@
+.tabs {
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.tabsContent {
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px 0px #00000026;
+	padding: 2%;
+}

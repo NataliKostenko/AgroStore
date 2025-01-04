@@ -1,0 +1,30 @@
+.breadcrumbs {
+	display: flex;
+	justify-content: center;
+}
+
+.breadcrumbs li {
+	list-style-type: none;
+	margin-right: 1%;
+}
+
+.breadcrumbs li a {
+	text-decoration: none;
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21.94px;
+	color: #00000080;
+}
+
+.breadcrumbs li::before {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color: #84be51;
+	content: "•";
+	padding-right: 7px;
+}
+
+.breadcrumbs li:last-child a {
+	font-weight: 700;
+}

@@ -1,0 +1,29 @@
+.partnersPage {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 70%;
+	margin: 0 auto;
+	justify-content: space-between;
+	margin-top: 5%;
+}
+
+.partnersPageWrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2%;
+}
+
+@media screen and(max-width: 1440px) {
+	.partnersPage .partnerCard {
+		width: 425px;
+	}
+}
+
+@media screen and(max-width: 400px) {
+	.partnersPage {
+		width: 95%;
+	}
+}

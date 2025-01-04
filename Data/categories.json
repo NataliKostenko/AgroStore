@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Гербіциди",
+		"link": "/protection/herbicides"
+	},
+	{
+		"name": "Фунгіциди",
+		"link": "/protection/fungicides"
+	},
+	{
+		"name": "Інсектициди",
+		"link": "/protection/insecticides"
+	},
+	{
+		"name": "Десиканти",
+		"link": "/protection/dessicants"
+	},
+	{
+		"name": "Протруювачі",
+		"link": "/protection/disinfectants"
+	},
+	{
+		"name": "Ад’юванти",
+		"link": "/protection/adjuvants"
+	},
+	{
+		"name": "Родентициди",
+		"link": "/protection/rodenticides"
+	},
+	{
+		"name": "Ретарданти",
+		"link": "/protection/retardants"
+	}
+]

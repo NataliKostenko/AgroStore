@@ -1,0 +1,22 @@
+.pageCatalog {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2%;
+}
+
+.sideBarCatalog {
+	display: flex;
+	flex-direction: column;
+	margin-right: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+	.sideBarCatalog button {
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	.pageCatalog {
+		flex-direction: column;
+	}
+}

@@ -1,25 +1,23 @@
 .slider {
-	display: flex;
-	flex-direction: column;
-	width: 80%;
-	margin-bottom: 2%;
-
+	overflow: hidden;
+	position: relative;
+	margin: 5% 0;
 }
 
-.sliderBlock {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 5%;
+.slider .circleArrow {
+	display: inline-flex;
 }
 
-.dotBlock {
-	width: 100px;
-	height: 50px;
+.slider .slide-list {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: end;
+	height: 100%;
+	transition: transform 0.5s ease-in-out;
+	width: 90%;
 	margin: 0 auto;
+}
+
+.display {
+	display: inline-flex;
+	width: 100%;
+	align-items: center;
 }

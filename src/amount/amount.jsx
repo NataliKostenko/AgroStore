@@ -1,9 +1,15 @@
-import './amount.css'
+import './amount.css';
+import { useCartContext } from '../shoppingCartContext'
 
-export default function Amount() {
+export default function Amount(props) {
+	const style = {
+		color: props.color
+	}
+	const cart = useCartContext();
+
 	return (
-		<div className='amount'>
-			00.00 грн.
+		<div className='amount' style={style}>
+			{cart.getTotalAmount()} грн.
 		</div>
 	)
 }
