@@ -25,3 +25,36 @@
 	padding-left: 20px;
 	margin-left: 62%;
 }
+
+@media screen and (max-width: 1440px) {
+	.productPanelSelect {
+		margin-left: 45%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.productPanelSelect {
+		margin-top: 3%;
+		margin-left: 62%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.productPanelSelect {
+		margin-left: 45%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.productPanelSelect {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 5%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.productPanelSelect {
+		width: 250px;
+	}
+}

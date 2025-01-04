@@ -34,3 +34,20 @@
 	line-height: 20px;
 	color: #00000080;
 }
+
+@media screen and (max-width: 600px) {
+	.partnerCard {
+		margin-bottom: 25%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.partnerCard {
+		width: auto;
+		height: auto;
+	}
+
+	.partnerCardBlock {
+		flex-direction: column;
+	}
+}

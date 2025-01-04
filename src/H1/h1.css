@@ -17,3 +17,9 @@
 .h1 img {
 	height: 30px;
 }
+
+@media screen and (max-width: 400px) {
+	.h1 h1 {
+		font-size: 40px;
+	}
+}

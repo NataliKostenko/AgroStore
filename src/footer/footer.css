@@ -15,8 +15,8 @@ footer {
 	margin-left: 10%;
 }
 
-hr {
-	width: 65%;
+footer hr {
+	width: 70%;
 }
 
 .year {
@@ -39,7 +39,27 @@ footer .circleArrow {
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
-	right: 200px;
+	right: 100px;
 	bottom: 0px;
 	position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+	.footerBlock {
+		display: block;
+	}
+
+	footer .circleArrow {
+		right: 10px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.footerBlock {
+		flex-direction: column;
+	}
+
+	footer .circleArrow {
+		right: 10px;
+	}
 }

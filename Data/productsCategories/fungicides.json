@@ -1,0 +1,21 @@
+[
+	{
+		"type": "goods",
+		"url": "/xopyc.png",
+		"alt": "photo",
+		"name": "Петунія Софістика F1",
+		"cost": 20,
+		"amount": 1,
+		"stocked": "B наявності",
+		"id": 4
+	},
+	{
+		"type": "goods",
+		"url": "/petunya.png",
+		"alt": "photo",
+		"name": "Петунія Софістика F1",
+		"cost": 20,
+		"amount": 1,
+		"stocked": "B наявності"
+	}
+]

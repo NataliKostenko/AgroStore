@@ -27,5 +27,19 @@
 	line-height: 20px;
 	letter-spacing: 0em;
 	text-align: left;
-	color: #484848;
+	color: #00000080;
+}
+
+.buttonSearch {
+	width: auto;
+	height: auto;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	.logoBlock .search {
+		display: none;
+	}
 }

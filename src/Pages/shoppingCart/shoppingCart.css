@@ -1,0 +1,116 @@
+.shoppingCart {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.productInCart {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 150px;
+	padding: 2%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px 0px #00000026;
+	margin-top: 3%;
+}
+
+.caunterCart {
+	display: flex;
+	flex-direction: row;
+	width: 150px;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.productName {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: left;
+	color: #000000;
+	margin-bottom: 0px;
+}
+
+.productCost {
+	color: #84BE51;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0;
+}
+
+.deleteProduct {
+	border: none;
+	background: none;
+}
+
+.productInCart button {
+	cursor: pointer;
+}
+
+.caunterCart button {
+	height: 30px;
+	width: 30px;
+	border: #84C551 solid 1px;
+	color: #84C551;
+	border-radius: 50%;
+	background-color: transparent;
+	font-size: 18px;
+}
+
+.caunterCart button:hover {
+	background-color: #84C551;
+	color: #FFFFFF;
+}
+
+.total {
+	width: 73%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: end;
+}
+
+.buttonBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 3%;
+}
+
+hr {
+	margin-top: 3%;
+}
+
+@media screen and (max-width: 600px) {
+	.productInCart {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.buttonBlock {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.buttonBlock .button {
+		width: 100%;
+		margin-bottom: 10%;
+	}
+
+	.productInCart p {
+		margin-bottom: 10%;
+	}
+}

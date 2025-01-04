@@ -16,14 +16,17 @@
 
 .numberItem {
 	margin-right: 10px;
+	background: transparent;
 }
 
-.numberItem:hover {
+.numberItem:hover,
+.active {
 	background-color: #E74E13;
 	color: #fff;
 }
 
-.numberItem:hover path {
+.numberItem:hover path,
+.active {
 	fill: #fff;
 }
 
@@ -31,10 +34,13 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	width: 325px;
 }
 
 .numberItemWrap {
 	display: flex;
 	justify-content: space-around;
 	width: auto;
+	margin-left: 5%;
+	margin-right: 5%;
 }

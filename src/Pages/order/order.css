@@ -1,0 +1,272 @@
+.orderPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.orderWrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.orderForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	width: 40%;
+}
+
+.orderCart {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	width: 50%;
+}
+
+.orderCartItem {}
+
+.selectPay {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.dataAccountForm .select {
+	margin-left: 0;
+	margin-bottom: 20px;
+	width: 260px;
+}
+
+.orderPage h3 {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24.38px;
+	text-align: left;
+	color: #000000;
+}
+
+.selectPay label {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 35.5px;
+	text-align: left;
+}
+
+.selectPay input {
+	margin-right: 2%;
+}
+
+.orderPage .orderForm .dataAccountForm {
+	height: auto;
+	width: auto;
+	flex-direction: column;
+	margin-left: 0;
+}
+
+.orderPage .orderForm .dataAccountForm div {
+	display: flex;
+	flex-direction: row;
+}
+
+.orderPage .orderForm .dataAccountForm textarea {
+	width: 510px;
+	padding-top: 20px;
+}
+
+.orderCostWrap {
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+
+}
+
+.orderItemSum {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 300px;
+}
+
+.orderCartItem .productInCart {
+	justify-content: space-between;
+}
+
+.orderItemSum p {
+	margin: revert;
+
+}
+
+.totalOrder {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 40px;
+	box-shadow: 0px 0px 8px 0px #00000026;
+	border-radius: 20px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 2%;
+	background-color: #1E6140;
+	color: white;
+}
+
+.totalOrder p {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19.5px;
+	text-align: left;
+}
+
+.totalOrder span {
+	color: #84BE51;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19.5px;
+	text-align: left;
+}
+
+.orderCart .buttonBody {
+	width: 105%;
+}
+
+.orderFinalBg {
+	background-image: url('/order.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: auto;
+	padding: 10%;
+}
+
+.orderFinalWrap {
+	justify-content: space-around;
+
+}
+
+.orderFinalWrap h1 {
+	color: white;
+}
+
+.orderFinalp {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	width: 450px;
+	color: white;
+}
+
+.orderFinalButtonBlock {
+	display: flex;
+	flex-direction: row;
+	width: 550px;
+	justify-content: space-between;
+}
+
+.orderFinalButtonBlock button {
+	width: 260px;
+	color: white;
+	border-color: white;
+}
+
+@media screen and (max-width: 1024px) {
+	.orderPage {
+		width: 85%;
+	}
+
+	.orderWrap {
+		flex-direction: column;
+	}
+
+	.orderForm {
+		width: 100%;
+	}
+
+	.orderCart {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.orderFinalBg .h1 {
+		width: min-content;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.orderPage {
+		width: 90%;
+	}
+
+	/* .orderWrap {
+		flex-direction: column;
+	} 
+
+	.orderForm {
+		width: 100%;
+	}*/
+
+	.orderPage .orderForm .dataAccountForm div {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.orderPage .orderForm .dataAccountForm textarea {
+		width: 100%;
+	}
+
+	/* .orderCart {
+		width: 100%;
+	} */
+
+	.orderFinalButtonBlock {
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+
+	}
+
+	.orderFinalButtonBlock button {
+		width: 100%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	.orderFinalBg {
+		padding-bottom: 20%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.orderPage .h1 h1 {
+		font-size: 35px;
+	}
+
+	.orderForm {
+		width: 95%;
+	}
+
+	.orderItemSum {
+		flex-direction: column;
+	}
+
+	.totalOrder {
+		height: auto;
+		flex-direction: column;
+	}
+
+	.orderFinalp {
+		width: auto;
+	}
+}

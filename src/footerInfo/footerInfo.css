@@ -31,7 +31,7 @@
 
 }
 
-.infoMenu .menuList li {
+.infoMenu .menuList .li {
 	color: #000;
 	font-family: Montserrat;
 	font-size: 18px;
@@ -39,8 +39,23 @@
 	font-weight: 400;
 	line-height: normal;
 	margin-bottom: 25px;
+	list-style-type: none;
 }
 
-.infoMenu .menuList li a {
+.infoMenu .menuList .li .a {
 	color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+	.menuFooter {
+		width: auto;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.menuFooter {
+		flex-direction: column;
+	}
+
 }

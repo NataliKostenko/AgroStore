@@ -89,3 +89,22 @@ input[type="checkbox"]:checked::before {
 	padding-left: 10%;
 	padding-bottom: 10%;
 }
+
+@media screen and (max-width: 1024px) {
+	.filterText {
+		display: none;
+	}
+
+	.filterTitle {
+		width: 100%;
+	}
+
+	.filter {
+		width: 100%;
+	}
+
+	.filter:hover .filterText {
+		display: flex;
+		flex-direction: column;
+	}
+}

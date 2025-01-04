@@ -18,3 +18,22 @@
 	bottom: -15px;
 	left: 80px;
 }
+
+@media screen and (max-width: 600px) {
+	.imgSection2 {
+		height: 400px;
+		width: 510px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.imgSection2 {
+		height: 200px;
+		width: 310px;
+	}
+
+	.leaf1Section2,
+	.leaf2Section2 {
+		display: none;
+	}
+}

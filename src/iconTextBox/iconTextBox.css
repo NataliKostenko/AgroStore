@@ -10,6 +10,8 @@
 	display: flex;
 	flex-direction: column;
 	margin-left: 20px;
+	flex-wrap: wrap;
+	width: 70%;
 }
 
 .secondaryText {
@@ -33,4 +35,16 @@
 	color: #000000;
 	cursor: pointer;
 	margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.logoBlock .iconTextBox {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.logoBlock .iconTextBox {
+		display: none;
+	}
 }

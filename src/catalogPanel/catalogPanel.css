@@ -22,6 +22,7 @@
 .catalogMenu {
 	display: flex;
 	flex-direction: column;
+	list-style-type: none;
 }
 
 .catalogMenu li a {
@@ -42,4 +43,14 @@
 
 .catalogMenu li {
 	margin-bottom: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+	.catalogPanel {
+		display: none;
+	}
+
+
+
+
 }

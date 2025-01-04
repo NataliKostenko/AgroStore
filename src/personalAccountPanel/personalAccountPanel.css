@@ -7,7 +7,7 @@
 	border-radius: 20px;
 	background-color: #FFFFFF;
 	cursor: pointer;
-	margin-top: 2%;
+	margin-top: 13%;
 }
 
 .accountMenu a {
@@ -58,4 +58,10 @@
 
 .accountMenuItem:hover a {
 	color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+	.accountPanel {
+		display: none;
+	}
 }

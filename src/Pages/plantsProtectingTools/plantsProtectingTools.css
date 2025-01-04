@@ -3,6 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .plantsProtectingTools {
@@ -10,7 +11,9 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin-top: 2%;
+	gap: 2%;
 	width: 70%;
+	justify-content: center;
 }
 
 .plantsProtectingToolsItem img {
@@ -68,10 +71,13 @@
 }
 
 .plantsProtectingInfo {
-	background-image: url(./trees.png);
+	background-image: url(/trees.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top: 2%;
 }
 
 .plantsProtectingInfoText h1 {
@@ -91,4 +97,11 @@
 	background: rgb(0 0 0 / 15%);
 	border-radius: 35px;
 	padding: 0 2% 4% 3%;
+}
+
+@media screen and (max-width: 600px) {
+	.plantsProtectingInfoText {
+		height: auto;
+		width: 95%;
+	}
 }

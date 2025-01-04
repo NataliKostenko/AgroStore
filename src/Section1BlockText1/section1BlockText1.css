@@ -22,3 +22,15 @@
 	color: #00000080;
 	margin-bottom: 10%;
 }
+
+@media screen and (max-width: 1024px) {
+	.headText {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.headText {
+		width: 90%;
+	}
+}

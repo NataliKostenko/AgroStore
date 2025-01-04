@@ -69,3 +69,58 @@
 	height: 16px;
 	padding: 1px
 }
+
+@media screen and (max-width: 1024px) {
+	.registrationPage {
+		width: 85%;
+	}
+
+	.registrationPageText {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.registrationPage {
+		width: 90%;
+	}
+
+	.registrationPageText {
+		width: 100%;
+	}
+
+	.registrationForm {
+		width: 100%;
+	}
+
+	.registrationPage .registrationForm .name,
+	.registrationPage .registrationForm .surname,
+	.registrationPage .registrationForm .phone,
+	.registrationPage .registrationForm .mail {
+		width: 100%;
+	}
+
+	.registrationForm .name,
+	.phone {
+		margin-right: 0;
+	}
+
+	.registrationForm .password {
+		width: 100%;
+
+	}
+
+	.registrationPage button {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.registrationPageText {
+		text-align: start;
+	}
+
+	.registrationForm {
+		width: inherit;
+	}
+}

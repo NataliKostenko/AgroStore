@@ -13,9 +13,14 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 10%;
+	padding-top: 10%;
 }
 
-.personalAccountItemBox a {
+.personalAccountItemBox svg {
+	margin-bottom: 5%;
+}
+
+.personalAccountItemBox {
 	font-family: Montserrat;
 	font-size: 14px;
 	font-weight: 700;
@@ -24,5 +29,4 @@
 	text-align: center;
 	color: #FFFFFF;
 	text-decoration: none;
-	margin-top: 20px;
 }
