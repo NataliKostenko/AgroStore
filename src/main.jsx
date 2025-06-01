@@ -1,12 +1,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import {
-  // BrowserRouter,
   createBrowserRouter,
   Link,
   Route,
   RouterProvider,
-  //Routes,
   createRoutesFromElements,
   Outlet
 } from "react-router-dom";
@@ -29,14 +27,10 @@ import Orders from "./Pages/orders/orders.jsx";
 import DataAccount from "./Pages/dataAccount/dataAccount.jsx";
 import HistoryAccount from "./Pages/historyAccount/historyAccount.jsx";
 import PasswordAccont from "./Pages/passwordAccount/passwordAccount.jsx";
-import TestWay from "./testWay.jsx";
+import TestWay from "./testway.jsx";
 import AccountWay from "./accountWay.jsx";
 import PersonalAccountPanel from "./personalAccountPanel/personalAccountPanel.jsx";
 import Details from "./details/details.jsx";
-/* import TestRoute from './testRoute.js';
-import TestComponent from "./TestComponentOne.js";
-import TestComponentOne from "./TestComponentOne.js";
-import TestComponentTwo from "./TestComponentTwo.js"; */
 import ShoppingCart from "./Pages/shoppingCart/shoppingCart.jsx";
 import Order from "./Pages/order/order.jsx";
 import OrderFinal from './Pages/order/orderFinal.jsx';

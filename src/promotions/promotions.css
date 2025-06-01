@@ -7,24 +7,21 @@
 }
 
 .promoutions {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding-bottom: 2%;
+	padding-bottom: 3%;
 }
 
-
-.promoutions .dot {
-	width: 6px;
-	height: 16px;
-	background: #FFFFFF33;
-	border-radius: 20px;
-
+.promoutions .buttonBody {
+	margin-left: 45%;
 }
 
-.promoutions .dot:hover {
-	height: 30px;
-	background: #FFFFFF;
+@media screen and (max-width: 600px) {
+	.promoutions .buttonBody {
+		margin-left: 35%;
+	}
+}
 
+@media screen and (max-width: 400px) {
+	.promoutions .buttonBody {
+		margin-left: 25%;
+	}
 }

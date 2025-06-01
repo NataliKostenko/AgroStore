@@ -3,6 +3,7 @@
 	flex-direction: row;
 	align-items: baseline;
 	color: black;
+	justify-content: center;
 }
 
 .h1 h1 {

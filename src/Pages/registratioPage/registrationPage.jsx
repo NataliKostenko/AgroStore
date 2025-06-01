@@ -3,7 +3,6 @@ import H1 from '../../H1/h1';
 import ButtonBody from '../../buttonBody/buttonBody';
 import './registrationPage.css';
 
-
 export default function RegistrationPage() {
 	const [checked, setChecked] = useState(false);
 	return <div className='registrationPage'>

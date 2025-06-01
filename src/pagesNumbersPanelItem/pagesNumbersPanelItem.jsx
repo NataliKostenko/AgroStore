@@ -1,5 +1,4 @@
 import './pagesNumbersPanelItem.css'
-// import { MouseEventHandler } from 'react'
 import { useState } from 'react';
 
 export default function Pagination({ itemsPerPage, length }) {

@@ -34,10 +34,10 @@ export default function ContactsPage() {
 
 		<form className='dataAccountForm'>
 			<p className='contactsBlockTextBasic'>Введіть ваші контактні дані і текст повідомлення, якщо у вас виникли питання або пропозиції, і ми найближчим часом відповімо вам.</p>
-			<input type='text' name='name' placeholder='Ім’я' className='name'></input>
+			<input type='text' name='name' placeholder='Ім’я  &#42;' className='name' required></input>
 			<input type='text' name='surname' placeholder='Прізвище' className='surname'></input>
 			<input type='text' name='phone' placeholder='Телефон' className='phone'></input>
-			<input type='text' name='mail' placeholder='E-mail' className='mail'></input>
+			<input type='text' name='mail' placeholder='E-mail  &#42;' className='mail' required></input>
 			<textarea name='text' placeholder='Ваше повідомлення' className='address'></textarea>
 			<ButtonBody type='submit' link='' text='Відправити' width='100%' />
 		</form>

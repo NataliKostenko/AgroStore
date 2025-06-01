@@ -1,4 +1,4 @@
-import { SetStateAction, useState } from 'react';
+import { useState } from 'react';
 import './tabsPanel.css';
 import Feedback from '../feedback/feedback';
 import Description from '../description/description';

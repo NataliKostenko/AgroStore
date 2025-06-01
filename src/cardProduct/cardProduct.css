@@ -31,7 +31,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	/* align-items: center; */
 	width: 185px;
 	height: 150px;
 	padding-left: 25px;
@@ -63,7 +62,6 @@ a {
 .cardItems {
 	display: flex;
 	flex-direction: row;
-	/* justify-content: space-around; */
 	align-items: center;
 	width: 100%;
 }

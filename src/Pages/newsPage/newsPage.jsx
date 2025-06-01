@@ -96,12 +96,6 @@ export default function NewsPage() {
 					</button>
 				</div>
 			</div>
-
-
-
-
 		</div>
-
-
 	</div>
 }

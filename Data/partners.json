@@ -1,54 +1,52 @@
 [
-	[
-		{
-			"type": "partners",
-			"url": "/adama.png",
-			"alt": "photo"
-		},
-		{
-			"type": "partners",
-			"url": "/basf.png",
-			"alt": "photo"
-		},
-		{
-			"type": "partners",
-			"url": "/dekalb.png",
-			"alt": "photo"
-		},
-		{
-			"type": "partners",
-			"url": "/lidea.png",
-			"alt": "photo"
-		},
-		{
-			"type": "partners",
-			"url": "/rodonit.png",
-			"alt": "photo"
-		},
-		{
-			"type": "partners",
-			"url": "/adama.png",
-			"alt": "photo"
-		},
-		{
-			"type": "partners",
-			"url": "/basf.png",
-			"alt": "photo"
-		},
-		{
-			"type": "partners",
-			"url": "/dekalb.png",
-			"alt": "photo"
-		},
-		{
-			"type": "partners",
-			"url": "/lidea.png",
-			"alt": "photo"
-		},
-		{
-			"type": "partners",
-			"url": "/rodonit.png",
-			"alt": "photo"
-		}
-	]
+	{
+		"type": "partners",
+		"url": "/adama.png",
+		"alt": "photo"
+	},
+	{
+		"type": "partners",
+		"url": "/basf.png",
+		"alt": "photo"
+	},
+	{
+		"type": "partners",
+		"url": "/dekalb.png",
+		"alt": "photo"
+	},
+	{
+		"type": "partners",
+		"url": "/lidea.png",
+		"alt": "photo"
+	},
+	{
+		"type": "partners",
+		"url": "/rodonit.png",
+		"alt": "photo"
+	},
+	{
+		"type": "partners",
+		"url": "/adama.png",
+		"alt": "photo"
+	},
+	{
+		"type": "partners",
+		"url": "/basf.png",
+		"alt": "photo"
+	},
+	{
+		"type": "partners",
+		"url": "/dekalb.png",
+		"alt": "photo"
+	},
+	{
+		"type": "partners",
+		"url": "/lidea.png",
+		"alt": "photo"
+	},
+	{
+		"type": "partners",
+		"url": "/rodonit.png",
+		"alt": "photo"
+	}
 ]

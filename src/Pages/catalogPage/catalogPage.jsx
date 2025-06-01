@@ -4,6 +4,5 @@ import PlantsProtectingToolsPageCatalog from '../PlantsProtectingToolsPageCatalo
 export default function CatalogPage() {
 	return <div className='catalogPage'>
 		<PlantsProtectingToolsPageCatalog />
-
 	</div>
 }

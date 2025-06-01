@@ -15,13 +15,9 @@ const FavouritContextProvider = (props) => {
 	};
 
 	const [favouritItems, setFavouritItems] = useState(getFavouritState());
-	/* const [showItems, setShowItems] = useState(false);
-	const [showAlert, setShowAlert] = useState(null); */
-
 	const toggle = (product, quantity = 1) => {
-		// нужно проверить, нет ли уже такого товара в избранном
 		const itemIndex = favouritItems.findIndex(value => value.id === product.id);
-		if (itemIndex < 0) { // такого товара еще нет
+		if (itemIndex < 0) {
 			const newItem = {
 				...product,
 				quantity: quantity
@@ -42,10 +38,6 @@ const FavouritContextProvider = (props) => {
 		setFavouritItemsInternal(newFavourit);
 	}
 
-	/* const toggleShow = () => setShowItems(!showItems);
-
-	const hideAlert = () => setShowAlert(null);
- */
 	const getFavouritQuantity = (productId) => {
 		const itemIndex = favouritItems.findIndex(value => value.id === productId);
 		if (itemIndex < 0) {
@@ -57,8 +49,6 @@ const FavouritContextProvider = (props) => {
 	}
 	const getTotalQuantity = () => favouritItems.reduce((quantity, currentValue) => quantity + currentValue.quantity, 0);
 
-	// const getTotalAmount = () => cartItems.reduce((sum, item) => sum + item.cost * item.quantity, 0);
-
 	const clear = () => setFavouritItemsInternal([]);
 
 	const setFavouritItemsInternal = (favouritItems) => {
@@ -66,18 +56,12 @@ const FavouritContextProvider = (props) => {
 		setFavouritItems(favouritItems);
 	}
 
-	// контекст, который будет доступен всем потомкам
 	const value = {
 		items: favouritItems,
 		toggle: toggle,
 		remove: remove,
 		contains: contains,
-		// showItems: showItems,
-		// toggleShow: toggleShow,
-		// showAlert: showAlert,
-		// hideAlert: hideAlert,
 		getFavouritQuantity: getFavouritQuantity,
-		// getTotalAmount: getTotalAmount,
 		clear: clear,
 		getTotalQuantity: getTotalQuantity
 	};
