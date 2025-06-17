@@ -1,4 +1,4 @@
-import H1 from '../../H1/h1';
+import H1 from '../../Components/H1/H1';
 import './paymentAndDeliveryPage.css';
 
 export default function PaymentAndDeliveryPage() {
@@ -17,7 +17,6 @@ export default function PaymentAndDeliveryPage() {
 					(комісія) оплачується окремо, згідно тарифів обраного Вами банку.
 				</p>
 			</li>
-
 			<li>
 				<span>
 					Післяплатою через «Укрпошта Експрес» (оплата при отриманні посилки)
@@ -29,7 +28,6 @@ export default function PaymentAndDeliveryPage() {
 					оплачується при отриманні посилки.
 				</p>
 			</li>
-
 			<li>
 				<span>
 					Післяплатою через компанію «Нова пошта» (оплата при отриманні відправлення)
@@ -39,7 +37,6 @@ export default function PaymentAndDeliveryPage() {
 					коштів - 2,5%, але не менш ніж 10 грн від суми замовлення. Коміссія сплачується при отриманні посилки.
 				</p>
 			</li>
-
 			<li>
 				<span>
 					Готівкою при самовивозі

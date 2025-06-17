@@ -1,5 +1,5 @@
-import H1 from '../../H1/h1'
-import './newsPage.css'
+import H1 from '../../Components/H1/H1';
+import './newsPage.css';
 
 export default function NewsPage() {
 	return <div className='aboutProduct'>
@@ -65,7 +65,6 @@ export default function NewsPage() {
 					</button>
 				</div>
 			</div>
-
 			<div className='newItem'>
 				<img className='pictureNew ' src='/new4.jpg' alt='new1'></img>
 				<div className='newText'>

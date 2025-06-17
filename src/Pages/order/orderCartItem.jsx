@@ -1,8 +1,12 @@
-import './order.css'
+import './order.css';
 import ButtonDelete from '../shoppingCart/buttonDelete';
-import { useCartContext } from '../../shoppingCartContext';
+import { useCartContext } from '../../Contexts/shoppingCartContext';
+import PropTypes from 'prop-types';
 
 export default function OrderCartItem({ product }) {
+	OrderCartItem.propTypes = {
+		product: PropTypes.string
+	}
 	const cart = useCartContext();
 	return <div className='orderCartItem'>
 		<div className='productInCart'>

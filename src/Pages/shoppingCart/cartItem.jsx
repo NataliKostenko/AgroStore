@@ -1,9 +1,14 @@
 import { useState } from "react";
 import './shoppingCart.css';
 import ButtonDelete from "./buttonDelete";
-import { useCartContext } from "../../shoppingCartContext";
+import { useCartContext } from "../../Contexts/shoppingCartContext";
+import PropTypes from 'prop-types';
 
 export default function CartItem({ product }) {
+	CartItem.propTypes = {
+		product: PropTypes.string,
+	}
+
 	const cart = useCartContext();
 	const [number, setNumber] = useState(cart.getProductQuantity(product.id));
 

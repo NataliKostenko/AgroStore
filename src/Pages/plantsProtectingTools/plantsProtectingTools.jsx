@@ -1,5 +1,5 @@
 import './plantsProtectingTools.css';
-import H1 from '../../H1/h1';
+import H1 from '../../Components/H1/H1';
 import PlantsProtectingToolsItem from './plantsProtectingToolsItem';
 
 export default function PlantsProtectingTools() {

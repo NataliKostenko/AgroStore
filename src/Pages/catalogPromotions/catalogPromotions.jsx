@@ -1,8 +1,8 @@
-import '../catalogSeeds/catalogSeeds.css'
+import '../catalogSeeds/catalogSeeds.css';
 import '../PlantsProtectingToolsPageCatalog.css';
-import PanelFilter from '../../filter/panelFilters';
-import ProductPanel from '../../productPanel/productPanel';
-import H1 from '../../H1/h1';
+import PanelFilter from '../../Components/Filter/PanelFilters';
+import ProductPanel from '../../Components/ProductPanel/ProductPanel';
+import H1 from '../../Components/H1/H1';
 
 export default function CatalogPromotions() {
 
@@ -12,7 +12,7 @@ export default function CatalogPromotions() {
 			<div className='sideBarCatalog'>
 				<PanelFilter />
 			</div>
-			<ProductPanel url={"../../Data/productPanel.json"} />
+			<ProductPanel url={"../../Data/products.json"} />
 		</div>
 	</div>
 }

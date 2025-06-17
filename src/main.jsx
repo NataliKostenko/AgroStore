@@ -27,10 +27,10 @@ import Orders from "./Pages/orders/orders.jsx";
 import DataAccount from "./Pages/dataAccount/dataAccount.jsx";
 import HistoryAccount from "./Pages/historyAccount/historyAccount.jsx";
 import PasswordAccont from "./Pages/passwordAccount/passwordAccount.jsx";
-import TestWay from "./testway.jsx";
-import AccountWay from "./accountWay.jsx";
-import PersonalAccountPanel from "./personalAccountPanel/personalAccountPanel.jsx";
-import Details from "./details/details.jsx";
+import PlantsProtectingToolsCatalog from "./Pages/PlantsProtectingToolsCatalog.jsx";
+import Account from "./Pages/account.jsx";
+import PersonalAccountPanel from "./Components/PersonalAccountPanel/PersonalAccountPanel.jsx";
+import Details from "./Components/Details/Details.jsx";
 import ShoppingCart from "./Pages/shoppingCart/shoppingCart.jsx";
 import Order from "./Pages/order/order.jsx";
 import OrderFinal from './Pages/order/orderFinal.jsx';
@@ -40,7 +40,7 @@ import CatalogFeed from './Pages/catalogFeed/catalogFeed.jsx';
 import CatalogHelp from './Pages/catalogHelp/catalogHelp.jsx';
 import CatalogPromotions from './Pages/catalogPromotions/catalogPromotions.jsx';
 import Favourites from './Pages/favourites/favourites.jsx';
-import Compare from './Pages/compare/compare.jsx'
+import Compare from './Pages/compare.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -66,20 +66,20 @@ const router = createBrowserRouter(
       <Route path="registration" element={<RegistrationPage />} handle={() => <Link to='registration'>Реєстрація</Link>} />
       <Route path="shoppingCart" element={<ShoppingCart />} handle={() => <Link to='shoppingCart'>Кошик</Link>} />
       <Route path="order" element={<Order />} handle={() => <Link to='order'>Оформлення замовлення</Link>} />
-      <Route path="orderFinal" element={<OrderFinal />} handle={() => <Link to='orderFinal'>OrderFinal</Link>} />
-      <Route path="favourites" element={<Favourites />} handle={() => <Link to='favourites'>Favourites</Link>} />
-      <Route path="compare" element={<Compare />} handle={() => <Link to='compare'>Compare</Link>} />
+      <Route path="orderFinal" element={<OrderFinal />} handle={() => <Link to='orderFinal'>Підтвердження замовлення</Link>} />
+      <Route path="favourites" element={<Favourites />} handle={() => <Link to='favourites'>Обрані</Link>} />
+      <Route path="compare" element={<Compare />} handle={() => <Link to='compare'>Порівняти</Link>} />
 
-      <Route path='account' element={<AccountWay />} handle={() => <Link to='account'>Account</Link>}>
+      <Route path='account' element={<Account />} handle={() => <Link to='account'>Особистий кабінет</Link>}>
         <Route index element={<PersonalAccountPage />} />
-        <Route path="orders" element={<Orders />} handle={() => <Link to='orders'>Orders</Link>} />
+        <Route path="orders" element={<Orders />} handle={() => <Link to='orders'>Поточні замовлення</Link>} />
         <Route path="accountPanel" element={<PersonalAccountPanel />} />
-        <Route path="data" element={<DataAccount />} handle={() => <Link to='data'>Data</Link>} />
-        <Route path="history" element={<HistoryAccount />} handle={() => <Link to='history'>History</Link>} />
-        <Route path="password" element={<PasswordAccont />} handle={() => <Link to='password'>Password</Link>} />
+        <Route path="data" element={<DataAccount />} handle={() => <Link to='data'>Особисті дані</Link>} />
+        <Route path="history" element={<HistoryAccount />} handle={() => <Link to='history'>Історія замовлень</Link>} />
+        <Route path="password" element={<PasswordAccont />} handle={() => <Link to='password'>Зміна паролю</Link>} />
       </Route>
 
-      < Route path='protection' element={< TestWay />} handle={() => <Link to='protection'>Protection</Link>}>
+      < Route path='protection' element={<PlantsProtectingToolsCatalog />} handle={() => <Link to='protection'>Засоби захисту рослин</Link>}>
         <Route index element={<PlantsProtectingTools />} />
         <Route path="herbicides" element={<Herbicides />} handle={() => <Link to='herbicides'>Herbicides</Link>} />
         <Route path="fungicides" element={<Fungicides />} handle={() => <Link to='fungicides'>Fungicides</Link>} />

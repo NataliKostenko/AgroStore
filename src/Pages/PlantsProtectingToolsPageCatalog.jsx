@@ -1,8 +1,8 @@
 import './PlantsProtectingToolsPageCatalog.css';
-import PanelFilter from '../filter/panelFilters';
-import CatalogPanel from '../catalogPanel/catalogPanel';
-import ProductPanel from '../productPanel/productPanel';
-import H1 from '../H1/h1';
+import PanelFilter from '../Components/Filter/PanelFilters';
+import CatalogPanel from '../Components/CatalogPanel/CatalogPanel';
+import ProductPanel from '../Components/ProductPanel/ProductPanel';
+import H1 from '../Components/H1/H1';
 
 export default function PlantsProtectingToolsPageCatalog() {
 	return <>
@@ -12,7 +12,7 @@ export default function PlantsProtectingToolsPageCatalog() {
 				<CatalogPanel url={'../../Data/categories.json'} />
 				<PanelFilter />
 			</div>
-			<ProductPanel url={"../../Data/productPanel.json"} />
+			<ProductPanel url={"../../Data/products.json"} />
 		</div>
 	</>
 }

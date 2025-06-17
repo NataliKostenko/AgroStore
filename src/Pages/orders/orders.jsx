@@ -1,6 +1,6 @@
-import H1 from '../../H1/h1'
-import './orders.css'
-import CarentOrdersItem from './carentOrdersItem'
+import H1 from '../../Components/H1/H1';
+import './orders.css';
+import CarentOrdersItem from './carentOrdersItem';
 
 export default function Orders() {
 	return <div className='ordersPage'>

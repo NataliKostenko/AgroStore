@@ -1,11 +1,10 @@
-
-import Novelties from '../novelties/novelties.jsx'
-import '../index.css'
-import Section1 from '../Section1/section1.jsx'
-import About from './aboutPage/aboutPage.jsx'
-import Promotions from '../promotions/promotions.jsx'
-import Partners from '../partners/partners.jsx'
-import Info from '../info/info.jsx'
+import '../index.css';
+import Section1 from '../Components/Section1/Section1.jsx';
+import About from './aboutPage/aboutPage.jsx';
+import Promotions from '../Components/Promotions/Promotions.jsx';
+import Partners from '../Components/Partners/Partners.jsx';
+import Info from '../Components/Info/Info.jsx';
+import Novelties from '../Components/Novelties/Novelties.jsx';
 
 export default function Home() {
 	return <>

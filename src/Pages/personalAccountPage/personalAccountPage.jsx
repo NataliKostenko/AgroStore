@@ -1,6 +1,6 @@
-import H1 from '../../H1/h1'
-import PersonalAccountPageItem from '../../personalAccount/personalAccountItem'
-import './personalAccountPage.css'
+import H1 from '../../Components/H1/H1';
+import PersonalAccountItem from '../../Components/PersonalAccount/PersonalAccountItem';
+import './personalAccountPage.css';
 
 const items = [
 	{
@@ -48,7 +48,7 @@ export default function PersonalAccountPage() {
 		<H1 text={'Особистий кабінет'} />
 		<div className='personalAccountPageElements'>
 			<div className='personalAccountPageBox'>
-				{items.map((item, index) => <PersonalAccountPageItem img={item.img} key={index} text={item.text} link={item.link} />)}
+				{items.map((item, index) => <PersonalAccountItem img={item.img} key={index} text={item.text} link={item.link} />)}
 			</div>
 		</div>
 	</div>

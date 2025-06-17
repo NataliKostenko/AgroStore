@@ -1,9 +1,9 @@
-import './favourites.css'
-import H1 from '../../H1/h1';
-import FavouriteItem from './favouriteItem';
-import Button from '../../button/button';
+import './favourites.css';
+import H1 from '../../Components/H1/H1';
+import FavouriteItem from '../../Components/Favourite/FavouriteItem';
+import Button from '../../Components/Button/Button';
 import BinIcon from "../shoppingCart/binIcon";
-import { useFavouritContext } from '../../favouritesContext'
+import { useFavouritContext } from '../../Contexts/favouritesContext';
 
 export default function Favourites() {
 	const favourit = useFavouritContext();

@@ -1,8 +1,13 @@
 import './partnersPage.css';
-import PartnerCard from '../../partnerCard/partnerCard';
+import PartnerCard from '../../Components/PartnerCard/PartnerCard';
 import { useEffect, useState } from 'react';
-import H1 from '../../H1/h1'
+import H1 from '../../Components/H1/H1';
+import PropTypes from 'prop-types';
+
 export default function PartnersPage(props) {
+	PartnersPage.propTypes = {
+		url: PropTypes.string
+	}
 	const [items, setItems] = useState([]);
 
 	useEffect(() => {
@@ -14,6 +19,7 @@ export default function PartnersPage(props) {
 		};
 		loadData();
 	}, []);
+
 	return <div className='partnersPageWrap'>
 		<H1 text={'Партнери'} />
 		<div className='partnersPage'>
