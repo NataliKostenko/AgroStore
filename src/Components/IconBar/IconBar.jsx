@@ -1,9 +1,9 @@
 import './iconBar.css';
 import Circle from '../Circle/Circle';
 import Amount from '../Amount/Amount';
-import FavoriteIcon from '../FavoriteIcon';
-import ScalesIcon from '../ScalesIcon';
-import CartIcon from '../CartIcon';
+import FavoriteIcon from '../Icons/FavoriteIcon';
+import ScalesIcon from '../Icons/ScalesIcon';
+import CartIcon from '../Icons/CartIcon';
 import { Link } from 'react-router-dom';
 import { useCartContext } from '../../Contexts/shoppingCartContext';
 import { useFavouritContext } from '../../Contexts/favouritesContext';

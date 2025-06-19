@@ -1,6 +1,6 @@
 import './cardProduct.css';
-import CartIcon from '../../Components/CartIcon';
-import ScalesIcon from '../ScalesIcon';
+import CartIcon from '../Icons/CartIcon';
+import ScalesIcon from '../Icons/ScalesIcon';
 import { Link } from 'react-router-dom';
 import CircleCardProductItem from '../Circle/CircleCardProductItem';
 import { useCartContext } from '../../Contexts/shoppingCartContext';

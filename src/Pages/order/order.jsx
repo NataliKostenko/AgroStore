@@ -1,7 +1,7 @@
 import H1 from '../../Components/H1/H1';
 import ButtonBody from '../../Components/ButtonBody/ButtonBody';
 import './order.css';
-import OrderCartItem from './orderCartItem';
+import OrderCartItem from '../../Components/OrderCartItem';
 import { useCartContext } from '../../Contexts/shoppingCartContext';
 
 export default function Order() {

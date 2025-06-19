@@ -1,9 +1,9 @@
 import H1 from '../../Components/H1/H1';
 import './contactsPage.css';
 import Phone from '../../Components/Phone/Phone';
-import MailBox from '../../Components/MailBox/MailBox';
-import MapBox from '../../Components/MapBox/MapBox';
-import TimeBox from '../../Components/TimeBox/TimeBox';
+import MailBox from '../../Components/MailBox';
+import MapBox from '../../Components/MapBox';
+import TimeBox from '../../Components/TimeBox';
 import ButtonBody from '../../Components/ButtonBody/ButtonBody';
 
 export default function ContactsPage() {

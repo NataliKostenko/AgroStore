@@ -1,6 +1,6 @@
-import Circle from '../Circle/Circle';
-import IconTextBox from '../IconTextBox/IconTextBox';
-import MapIcon from '../MapIcon';
+import Circle from './Circle/Circle';
+import IconTextBox from './IconTextBox/IconTextBox';
+import MapIcon from './Icons/MapIcon';
 import PropTypes from 'prop-types';
 
 export default function MapBox(props) {

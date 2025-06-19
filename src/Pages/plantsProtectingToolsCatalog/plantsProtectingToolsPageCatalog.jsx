@@ -1,8 +1,8 @@
-import './PlantsProtectingToolsPageCatalog.css';
-import PanelFilter from '../Components/Filter/PanelFilters';
-import CatalogPanel from '../Components/CatalogPanel/CatalogPanel';
-import ProductPanel from '../Components/ProductPanel/ProductPanel';
-import H1 from '../Components/H1/H1';
+import './plantsProtectingToolsPageCatalog.css';
+import PanelFilter from '../../Components/Filter/PanelFilters';
+import CatalogPanel from '../../Components/CatalogPanel/CatalogPanel';
+import ProductPanel from '../../Components/ProductPanel/ProductPanel';
+import H1 from '../../Components/H1/H1';
 
 export default function PlantsProtectingToolsPageCatalog() {
 	return <>

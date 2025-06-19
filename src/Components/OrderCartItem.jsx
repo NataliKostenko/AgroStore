@@ -1,6 +1,6 @@
-import './order.css';
-import ButtonDelete from '../shoppingCart/buttonDelete';
-import { useCartContext } from '../../Contexts/shoppingCartContext';
+import '../Pages/order/order.css';
+import ButtonDelete from './ButtonDelete';
+import { useCartContext } from '../Contexts/shoppingCartContext';
 import PropTypes from 'prop-types';
 
 export default function OrderCartItem({ product }) {

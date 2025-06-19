@@ -1,5 +1,5 @@
-import H1 from '../../Components/H1/H1';
-import './plantsProtectingTools.css';
+import H1 from '../H1/H1';
+import '../../Pages/plantsProtectingTools/plantsProtectingTools.css';
 
 export default function PlantsProtectingInfo() {
 

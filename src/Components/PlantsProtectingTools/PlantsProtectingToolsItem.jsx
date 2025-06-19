@@ -1,5 +1,5 @@
-import './plantsProtectingTools.css';
-import ButtonBody from '../../Components/ButtonBody/ButtonBody';
+import '../../Pages/plantsProtectingTools/plantsProtectingTools.css';
+import ButtonBody from '../ButtonBody/ButtonBody';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 

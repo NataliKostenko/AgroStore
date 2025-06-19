@@ -1,4 +1,4 @@
-import BinIcon from "./binIcon";
+import BinIcon from './Icons/BinIcon';
 import PropTypes from 'prop-types';
 
 export default function ButtonDelete(props) {

@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import PlantsProtectingInfo from './plantsProtectingTools/plantsProtectingInfo';
-import './plantsProtectingTools/plantsProtectingTools.css';
+import PlantsProtectingInfo from '../../Components/PlantsProtectingTools/PlantsProtectingInfo';
+import '../plantsProtectingToolsCatalog/plantsProtectingToolsPageCatalog.css';
 
 export default function PlantsProtectingToolsCatalog
 	() {

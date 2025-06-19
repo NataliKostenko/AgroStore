@@ -1,10 +1,10 @@
 import H1 from '../../Components/H1/H1';
 import './shoppingCart.css';
-import CartIcon from '../../Components/CartIcon';
+import CartIcon from '../../Components/Icons/CartIcon';
 import Button from '../../Components/Button/Button';
-import OrderIcon from './orderIcon';
-import CartItem from './cartItem';
-import BinIcon from "./binIcon";
+import OrderIcon from '../../Components/Icons/OrderIcon';
+import CartItem from '../../Components/CartItem';
+import BinIcon from '../../Components/Icons/BinIcon';
 import { useCartContext } from '../../Contexts/shoppingCartContext';
 
 export default function ShoppingCart() {

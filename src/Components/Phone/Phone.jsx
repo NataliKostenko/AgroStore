@@ -1,6 +1,6 @@
 import Circle from '../Circle/Circle';
 import IconTextBox from '../IconTextBox/IconTextBox';
-import PhoneIcon from '../PhoneIcon';
+import PhoneIcon from '../Icons/PhoneIcon';
 import PropTypes from 'prop-types';
 
 export default function Phone(props) {

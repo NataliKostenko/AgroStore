@@ -1,5 +1,5 @@
-import '../order/order.css';
-import ButtonDelete from '../shoppingCart/buttonDelete';
+import '../Pages/order/order.css';
+import ButtonDelete from './ButtonDelete';
 
 export default function CarentOrdersItem() {
 	return <div className='orderCartItem'>

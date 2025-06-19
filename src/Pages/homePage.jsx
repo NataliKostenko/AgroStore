@@ -4,7 +4,7 @@ import About from './aboutPage/aboutPage.jsx';
 import Promotions from '../Components/Promotions/Promotions.jsx';
 import Partners from '../Components/Partners/Partners.jsx';
 import Info from '../Components/Info/Info.jsx';
-import Novelties from '../Components/Novelties/Novelties.jsx';
+import Novelties from '../Components/Novelties.jsx';
 
 export default function Home() {
 	return <>

@@ -1,7 +1,7 @@
 import './footerInfo.css';
 import MenuItem from '../Menu/MenuItem';
 import Phone from '../Phone/Phone';
-import MailBox from '../MailBox/MailBox';
+import MailBox from '../MailBox';
 
 export default function FooterInfo() {
 	const items = [{

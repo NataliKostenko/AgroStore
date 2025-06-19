@@ -1,5 +1,5 @@
 import Circle from '../Circle/Circle';
-import FavoriteIcon from '../FavoriteIcon';
+import FavoriteIcon from '../Icons/FavoriteIcon';
 import { useFavouritContext } from '../../Contexts/favouritesContext';
 import PropTypes from 'prop-types';
 

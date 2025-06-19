@@ -1,7 +1,7 @@
 import H1 from '../Components/H1/H1';
 import CompareItem from '../Components/Compare/CompareItem';
 import Button from '../Components/Button/Button';
-import BinIcon from "./shoppingCart/binIcon";
+import BinIcon from '../Components/Icons/BinIcon';
 import { useCompareContext } from '../Contexts/compareContext';
 
 export default function Compare() {

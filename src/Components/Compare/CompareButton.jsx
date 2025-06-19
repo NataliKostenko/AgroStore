@@ -1,5 +1,5 @@
 import Circle from '../Circle/Circle';
-import ScalesIcon from '../ScalesIcon';
+import ScalesIcon from '../Icons/ScalesIcon';
 import { useCompareContext } from '../../Contexts/compareContext';
 import PropTypes from 'prop-types';
 

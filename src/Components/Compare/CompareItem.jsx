@@ -1,7 +1,7 @@
 import '../../Pages/order/order.css';
-import ButtonDelete from '../../Pages/shoppingCart/buttonDelete';
+import ButtonDelete from '../ButtonDelete';
 import Button from '../Button/Button';
-import CartIcon from '../CartIcon';
+import CartIcon from '../Icons/CartIcon';
 import { useCartContext } from '../../Contexts/shoppingCartContext';
 import { useCompareContext } from '../../Contexts/compareContext';
 import PropTypes from 'prop-types';

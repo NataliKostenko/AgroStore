@@ -1,6 +1,6 @@
 import H1 from "../../Components/H1/H1";
 import Button from '../../Components/Button/Button';
-import CartIcon from '../../Components/CartIcon';
+import CartIcon from '../../Components/Icons/CartIcon';
 import './order.css';
 
 export default function OrderFinal() {

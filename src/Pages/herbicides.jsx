@@ -1,5 +1,5 @@
 import '../index.css';
-import './PlantsProtectingToolsPageCatalog.css';
+import './plantsProtectingToolsCatalog/plantsProtectingToolsPageCatalog.css';
 import PanelFilter from '../Components/Filter/PanelFilters';
 import CatalogPanel from '../Components/CatalogPanel/CatalogPanel';
 import ProductPanel from '../Components/ProductPanel/ProductPanel';

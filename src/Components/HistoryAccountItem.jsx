@@ -1,5 +1,5 @@
 import '../Pages/order/order.css';
-import ButtonDelete from '../Pages/shoppingCart/buttonDelete';
+import ButtonDelete from '../Components/ButtonDelete';
 
 export default function HistoryAccountItem() {
 

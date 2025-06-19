@@ -2,7 +2,7 @@ import './favourites.css';
 import H1 from '../../Components/H1/H1';
 import FavouriteItem from '../../Components/Favourite/FavouriteItem';
 import Button from '../../Components/Button/Button';
-import BinIcon from "../shoppingCart/binIcon";
+import BinIcon from '../../Components/Icons/BinIcon';
 import { useFavouritContext } from '../../Contexts/favouritesContext';
 
 export default function Favourites() {

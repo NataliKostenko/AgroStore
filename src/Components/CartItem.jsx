@@ -1,7 +1,7 @@
 import { useState } from "react";
-import './shoppingCart.css';
-import ButtonDelete from "./buttonDelete";
-import { useCartContext } from "../../Contexts/shoppingCartContext";
+import '../Pages/shoppingCart/shoppingCart.css';
+import ButtonDelete from "./ButtonDelete";
+import { useCartContext } from "../Contexts/shoppingCartContext";
 import PropTypes from 'prop-types';
 
 export default function CartItem({ product }) {

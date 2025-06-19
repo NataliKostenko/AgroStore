@@ -1,7 +1,7 @@
-import H1 from '../H1/H1';
-import Slider from '../Slider/Slider';
-import products from "../../../Data/products.json";
-import CardProduct from "../CardProduct/CardProduct";
+import H1 from './H1/H1';
+import Slider from './Slider/Slider';
+import products from "../../Data/products.json";
+import CardProduct from "./CardProduct/CardProduct";
 
 export default function Novelties() {
 	const cards = products.map((item) => (

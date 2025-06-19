@@ -15,7 +15,7 @@ import PartnersPage from "./Pages/partnersPage/partnersPage.jsx";
 import PlantsProtectingTools from "./Pages/plantsProtectingTools/plantsProtectingTools.jsx";
 import Herbicides from './Pages/herbicides.jsx';
 import Fungicides from './Pages/fungicides.jsx';
-import CatalogPage from './Pages/catalogPage/catalogPage.jsx';
+import CatalogPage from './Pages/catalogs/catalogPage.jsx';
 import App from './App.jsx';
 import MoreAboutCompany from "./Pages/moreAboutCompanyPage/moreAboutCompany.jsx";
 import RegistrationPage from "./Pages/registratioPage/registrationPage.jsx";
@@ -27,18 +27,18 @@ import Orders from "./Pages/orders/orders.jsx";
 import DataAccount from "./Pages/dataAccount/dataAccount.jsx";
 import HistoryAccount from "./Pages/historyAccount/historyAccount.jsx";
 import PasswordAccont from "./Pages/passwordAccount/passwordAccount.jsx";
-import PlantsProtectingToolsCatalog from "./Pages/PlantsProtectingToolsCatalog.jsx";
+import PlantsProtectingToolsCatalog from "./Pages/plantsProtectingToolsCatalog/plantsProtectingToolsCatalog.jsx";
 import Account from "./Pages/account.jsx";
 import PersonalAccountPanel from "./Components/PersonalAccountPanel/PersonalAccountPanel.jsx";
 import Details from "./Components/Details/Details.jsx";
 import ShoppingCart from "./Pages/shoppingCart/shoppingCart.jsx";
 import Order from "./Pages/order/order.jsx";
 import OrderFinal from './Pages/order/orderFinal.jsx';
-import CatalogSeeds from './Pages/catalogSeeds/catalogSeeds.jsx';
-import CatalogFertilisers from './Pages/catalogFertilisers/catalogFertilisers.jsx';
-import CatalogFeed from './Pages/catalogFeed/catalogFeed.jsx';
-import CatalogHelp from './Pages/catalogHelp/catalogHelp.jsx';
-import CatalogPromotions from './Pages/catalogPromotions/catalogPromotions.jsx';
+import CatalogSeeds from './Pages/catalogs/catalogSeeds.jsx';
+import CatalogFertilisers from './Pages/catalogs/catalogFertilisers.jsx';
+import CatalogFeed from './Pages/catalogs/catalogFeed.jsx';
+import CatalogHelp from './Pages/catalogs/catalogHelp.jsx';
+import CatalogPromotions from './Pages/catalogs/catalogPromotions.jsx';
 import Favourites from './Pages/favourites/favourites.jsx';
 import Compare from './Pages/compare.jsx'
 
@@ -81,8 +81,8 @@ const router = createBrowserRouter(
 
       < Route path='protection' element={<PlantsProtectingToolsCatalog />} handle={() => <Link to='protection'>Засоби захисту рослин</Link>}>
         <Route index element={<PlantsProtectingTools />} />
-        <Route path="herbicides" element={<Herbicides />} handle={() => <Link to='herbicides'>Herbicides</Link>} />
-        <Route path="fungicides" element={<Fungicides />} handle={() => <Link to='fungicides'>Fungicides</Link>} />
+        <Route path="herbicides" element={<Herbicides />} handle={() => <Link to='herbicides'>Гербіциди</Link>} />
+        <Route path="fungicides" element={<Fungicides />} handle={() => <Link to='fungicides'>Фунгіциди</Link>} />
       </Route >
     </Route >
   )

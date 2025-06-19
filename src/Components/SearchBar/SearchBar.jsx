@@ -1,5 +1,5 @@
-import Logo from '../Logo/Logo';
-import Search from '../../Components/Input/Search';
+import Logo from '../Logo';
+import Search from '../Input/Search';
 import Phone from '../Phone/Phone';
 import './searchBar.css';
 import IconBar from '../IconBar/IconBar';

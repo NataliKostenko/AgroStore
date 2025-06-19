@@ -1,6 +1,6 @@
-import Circle from '../Circle/Circle';
-import IconTextBox from '../IconTextBox/IconTextBox';
-import TimeIcon from '../TimeIcon';
+import Circle from './Circle/Circle';
+import IconTextBox from './IconTextBox/IconTextBox';
+import TimeIcon from './Icons/TimeIcon';
 import PropTypes from 'prop-types';
 
 export default function TimeBox(props) {
