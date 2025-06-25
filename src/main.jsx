@@ -25,7 +25,7 @@ import ContactsPage from "./Pages/contactsPage/contactsPage.jsx";
 import PersonalAccountPage from "./Pages/personalAccountPage/personalAccountPage.jsx";
 import Orders from "./Pages/orders/orders.jsx";
 import DataAccount from "./Pages/dataAccount/dataAccount.jsx";
-import HistoryAccount from "./Pages/historyAccount/historyAccount.jsx";
+import HistoryAccount from "./Pages/historyAccount.jsx";
 import PasswordAccont from "./Pages/passwordAccount/passwordAccount.jsx";
 import PlantsProtectingToolsCatalog from "./Pages/plantsProtectingToolsCatalog/plantsProtectingToolsCatalog.jsx";
 import Account from "./Pages/account.jsx";

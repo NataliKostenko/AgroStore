@@ -10,13 +10,13 @@ export default function CardProduct(props) {
 	const cart = useCartContext();
 
 	CardProduct.propTypes = {
-		id: PropTypes.number.isRequired,
-		url: PropTypes.string.isRequired,
-		name: PropTypes.string.isRequired,
-		stocked: PropTypes.string.isRequired,
-		cost: PropTypes.number.isRequired,
-		amount: PropTypes.number.isRequired,
-		unit: PropTypes.string.isRequired
+		id: PropTypes.number,
+		url: PropTypes.string,
+		name: PropTypes.string,
+		stocked: PropTypes.string,
+		cost: PropTypes.number,
+		amount: PropTypes.number,
+		unit: PropTypes.string
 	}
 
 	return <Link to={'/catalog/details/' + props.id} >

@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Header from './Components/Header/Header.jsx';
+import Header from './Components/Header.jsx';
 import './index.css';
 import Footer from './Components/Footer/Footer.jsx';
 import Breadcrumbs from './Components/Breadcrumbs/Breadcrumbs.jsx';

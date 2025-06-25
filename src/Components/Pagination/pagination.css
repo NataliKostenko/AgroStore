@@ -1,5 +1,6 @@
 .numberItem,
-.arrow {
+.arrow,
+.active {
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
@@ -14,7 +15,8 @@
 	align-items: center;
 }
 
-.numberItem {
+.numberItem,
+.active {
 	margin-right: 10px;
 	background: transparent;
 }

@@ -1,5 +1,4 @@
-{
-	"products": [
+	[
 		{
 			"type": "goods",
 			"url": "/petunya.png",
@@ -85,4 +84,3 @@
 			"cost": 20
 		}
 	]
-}

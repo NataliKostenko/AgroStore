@@ -1,6 +1,6 @@
 import Button from '../Button/Button';
 import './buttonBar.css';
-import ImgItem from '../ImgItem/ImgItem';
+import ImgItem from '../ImgItem';
 
 export default function ButtonBar() {
 	const items = [{

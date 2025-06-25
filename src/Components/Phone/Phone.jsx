@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 export default function Phone(props) {
 	Phone.propTypes = {
-		numberPhone: PropTypes.number,
+		numberPhone: PropTypes.string,
 		text: PropTypes.string
 	}
 	return <IconTextBox

@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 export default function TimeBox(props) {
 	TimeBox.propTypes = {
 		day: PropTypes.string,
-		time: PropTypes.number
+		time: PropTypes.string
 	}
 	return (
 		<IconTextBox

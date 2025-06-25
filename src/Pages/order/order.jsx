@@ -78,7 +78,7 @@ export default function Order() {
 					<p>Pазом товарів: <span>{cart.getTotalQuantity()}</span></p>
 					<p>До сплати: <span>{cart.getTotalAmount()} грн.</span></p>
 				</div>
-				<ButtonBody link='/orderFinal' type='button' text='Підтвердити замовлення' />
+				<ButtonBody link='/orderFinal' type='button' text='Підтвердити замовлення' onClick={() => cart.clear()} />
 			</div>
 		</div>
 	</div>

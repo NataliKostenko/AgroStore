@@ -1,6 +1,6 @@
 import H1 from './H1/H1';
 import Slider from './Slider/Slider';
-import products from "../../Data/products.json";
+import products from "../../Data/products1.json";
 import CardProduct from "./CardProduct/CardProduct";
 
 export default function Novelties() {
