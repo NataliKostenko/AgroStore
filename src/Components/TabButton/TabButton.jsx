@@ -6,7 +6,7 @@ export default function TabButton({
 	isActive,
 	onClick }) {
 	TabButton.propTypes = {
-		children: PropTypes.element,
+		children: PropTypes.any,
 		isActive: PropTypes.bool,
 		onClick: PropTypes.func
 	}

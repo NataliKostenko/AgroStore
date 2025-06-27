@@ -12,7 +12,7 @@ export default function CatalogFertilisers() {
 			<div className='sideBarCatalog'>
 				<PanelFilter />
 			</div>
-			<ProductPanel url={"../../Data/products.json"} />
+			<ProductPanel url={"/Data/products.json"} />
 		</div>
 	</div>
 }

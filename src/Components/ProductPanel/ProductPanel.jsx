@@ -1,13 +1,15 @@
 import './productPanel.css';
 import CardProduct from '../CardProduct/CardProduct';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import Pagination from '../Pagination/Pagination';
 import PropTypes from 'prop-types';
-
+import { SearchContext } from '../../Contexts/searchContext';
 export default function ProductPanel({ url }) {
 	const [items, setItems] = useState([]);
+	const [filteredItems, setFilteredItems] = useState([]);
 	const [currentPage, setCurrentPage] = useState(1);
 	const itemsPerPage = 9;
+	const { searchQuery } = useContext(SearchContext);
 
 	useEffect(() => {
 		const loadData = async () => {
@@ -15,9 +17,19 @@ export default function ProductPanel({ url }) {
 			const response = await fetch(url);
 			const data = await response.json();
 			setItems(data);
+			setFilteredItems(data);
 		};
 		loadData();
 	}, [url]);
+
+	useEffect(() => {
+		const lower = searchQuery.trim().toLowerCase();
+		const filtered = items.filter(item =>
+			(item.name?.toLowerCase().includes(lower))
+		);
+		setFilteredItems(filtered);
+		setCurrentPage(1);
+	}, [searchQuery, items]);
 
 	const list = (array, pageSize, pageNumber) => {
 		const startIndex = (pageNumber - 1) * pageSize;
@@ -25,7 +37,7 @@ export default function ProductPanel({ url }) {
 		return array.slice(startIndex, endIndex);
 	};
 
-	const visibleItems = list(items, itemsPerPage, currentPage);
+	const visibleItems = list(filteredItems, itemsPerPage, currentPage);
 
 	return (
 		<div className='productPanelWrap'>
@@ -35,31 +47,36 @@ export default function ProductPanel({ url }) {
 				<option value="3">Популярністю</option>
 			</select>
 			<div className='productPanel'>
-				{visibleItems.map((item, index) => (
-					<CardProduct
-						key={item.id || index}
-						type={''}
-						url={item.url}
-						name={item.name}
-						alt={item.alt}
-						cost={item.cost}
-						amount={item.amount}
-						stocked={item.stocked}
-						id={item.id}
-						unit={item.unit}
-					/>
-				))}
+				{visibleItems.length > 0 ? (
+					visibleItems.map((item, index) => (
+						<CardProduct
+							key={item.id || index}
+							type={''}
+							url={item.url}
+							name={item.name}
+							alt={item.alt}
+							cost={item.cost}
+							amount={item.amount}
+							stocked={item.stocked}
+							id={item.id}
+							unit={item.unit}
+						/>
+					))
+				) : (
+					<p>Нічого не знайдено.</p>
+				)}
 			</div>
-			<Pagination
-				itemsPerPage={itemsPerPage}
-				totalItems={items.length}
-				currentPage={currentPage}
-				onPageChange={setCurrentPage}
-			/>
+			{filteredItems.length > itemsPerPage && (
+				<Pagination
+					itemsPerPage={itemsPerPage}
+					totalItems={filteredItems.length}
+					currentPage={currentPage}
+					onPageChange={setCurrentPage}
+				/>
+			)}
 		</div>
 	);
 }
-
 ProductPanel.propTypes = {
 	url: PropTypes.string.isRequired
 };
