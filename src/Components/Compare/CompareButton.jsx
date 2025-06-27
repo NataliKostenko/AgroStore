@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 export default function CompareButton(props) {
 	CompareButton.propTypes = {
-		product: PropTypes.string
+		product: PropTypes.object
 	}
 	const compare = useCompareContext();
 	const isInCompare = compare.contains(props.product.id);

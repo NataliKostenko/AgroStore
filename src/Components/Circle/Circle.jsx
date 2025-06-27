@@ -6,7 +6,6 @@ import PropTypes from 'prop-types';
 export default function Circle(props) {
 	Circle.propTypes = {
 		border: PropTypes.string,
-		borderColor: PropTypes.string,
 		boxShadow: PropTypes.string,
 		backgroundColor: PropTypes.string,
 		color: PropTypes.string,
@@ -18,7 +17,6 @@ export default function Circle(props) {
 
 	const style = {
 		border: props.border,
-		borderColor: props.borderColor,
 		boxShadow: props.boxShadow,
 		backgroundColor: props.backgroundColor,
 		color: props.color,

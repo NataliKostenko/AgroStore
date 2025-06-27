@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export default function Button(props) {
 	Button.propTypes = {
 		onClick: PropTypes.func,
-		img: PropTypes.func,
+		img: PropTypes.element,
 		link: PropTypes.string,
 		text: PropTypes.string
 	}

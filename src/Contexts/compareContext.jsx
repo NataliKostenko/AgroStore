@@ -75,7 +75,4 @@ const CompareContextProvider = (props) => {
 }
 
 const useCompareContext = () => useContext(compareContext);
-
 export { useCompareContext, CompareContextProvider };
-
-

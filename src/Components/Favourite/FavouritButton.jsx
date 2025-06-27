@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 export default function FavouritButton(props) {
 	FavouritButton.propTypes = {
-		product: PropTypes.string
+		product: PropTypes.object
 	}
 	const favourit = useFavouritContext();
 	const isInFavourite = favourit.contains(props.product.id);
