@@ -8,6 +8,8 @@ import { CompareContextProvider } from './Contexts/compareContext.jsx';
 import ScrollToTop from './Components/ScrollToTop.jsx';
 import { CartContextProvider } from './Contexts/shoppingCartContext.jsx';
 import { SearchProvider } from './Contexts/searchContext.jsx';
+import { FilterProvider } from './Contexts/filterContext.jsx';
+
 export default function App() {
 
   return <div className='backgroundMain'>
@@ -15,11 +17,13 @@ export default function App() {
       <CartContextProvider>
         <FavouritContextProvider>
           <CompareContextProvider>
-            <Header />
-            <Breadcrumbs />
-            <Outlet />
-            <Footer />
-            <ScrollToTop />
+            <FilterProvider>
+              <Header />
+              <Breadcrumbs />
+              <Outlet />
+              <Footer />
+              <ScrollToTop />
+            </FilterProvider>
           </CompareContextProvider>
         </FavouritContextProvider>
       </CartContextProvider>

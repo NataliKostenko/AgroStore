@@ -5,10 +5,12 @@
 		"url": "/petunya.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Нертус",
 		"id": 1
 	},
 	{
@@ -17,10 +19,12 @@
 		"url": "/ckop.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 589,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "кг",
+		"maker": "Басф",
 		"id": 2
 	},
 	{
@@ -29,46 +33,54 @@
 		"url": "/ckop2.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 200,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "л",
+		"maker": "Адама Україна",
 		"id": 3
 	},
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/xopyc.png",
+		"url": "/sunflower.jpg",
 		"alt": "photo",
-		"name": "Петунія Софістика F1",
+		"name": "Соняшник",
+		"culture": "Соняшник",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Байєр",
 		"id": 4
 	},
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/petunya.png",
+		"url": "/beans.jpg",
 		"alt": "photo",
-		"name": "Петунія Софістика F1",
+		"name": "Боби",
+		"culture": "Боби",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "ГЗД",
 		"id": 5
 	},
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/ckop.png",
+		"url": "/corn.jpg",
 		"alt": "photo",
-		"name": "Скор 250 ЕС к.э.",
+		"name": "Кукурудза",
+		"culture": "Кукурудза",
 		"cost": 589,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "кг",
+		"maker": "Штефес",
 		"id": 6
 	},
 	{
@@ -77,22 +89,26 @@
 		"url": "/ckop2.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 200,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "л",
+		"maker": "Нертус",
 		"id": 7
 	},
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/xopyc.png",
+		"url": "/soybean.jpg",
 		"alt": "photo",
-		"name": "Петунія Софістика F1",
+		"name": "Соя",
+		"culture": "Соя",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Басф",
 		"id": 8
 	},
 	{
@@ -101,10 +117,12 @@
 		"url": "/petunya.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Адама Україна",
 		"id": 9
 	},
 	{
@@ -113,10 +131,12 @@
 		"url": "/ckop.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 589,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "кг",
+		"maker": "Байєр",
 		"id": 10
 	},
 	{
@@ -125,10 +145,12 @@
 		"url": "/ckop2.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 200,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "л",
+		"maker": "Штефес",
 		"id": 11
 	},
 	{
@@ -137,10 +159,12 @@
 		"url": "/xopyc.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Нертус",
 		"id": 12
 	},
 	{
@@ -149,10 +173,12 @@
 		"url": "/ckop.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 589,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "кг",
+		"maker": "Басф",
 		"id": 13
 	},
 	{
@@ -161,10 +187,12 @@
 		"url": "/ckop2.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 200,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "л",
+		"maker": "Адама Україна",
 		"id": 14
 	},
 	{
@@ -173,10 +201,12 @@
 		"url": "/xopyc.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Байєр",
 		"id": 15
 	},
 	{
@@ -185,10 +215,12 @@
 		"url": "/petunya.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Штефес",
 		"id": 16
 	},
 	{
@@ -197,10 +229,12 @@
 		"url": "/ckop.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 589,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "кг",
+		"maker": "Нертус",
 		"id": 17
 	},
 	{
@@ -209,10 +243,12 @@
 		"url": "/ckop2.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 200,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "л",
+		"maker": "Басф",
 		"id": 18
 	},
 	{
@@ -221,10 +257,12 @@
 		"url": "/xopyc.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Адама Україна",
 		"id": 19
 	},
 	{
@@ -233,10 +271,12 @@
 		"url": "/petunya.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Байєр",
 		"id": 20
 	},
 	{
@@ -245,10 +285,12 @@
 		"url": "/ckop.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 589,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "кг",
+		"maker": "Нертус",
 		"id": 21
 	},
 	{
@@ -257,10 +299,12 @@
 		"url": "/ckop2.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 200,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "л",
+		"maker": "Басф",
 		"id": 22
 	},
 	{
@@ -269,10 +313,12 @@
 		"url": "/xopyc.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Адама Україна",
 		"id": 23
 	},
 	{
@@ -281,10 +327,12 @@
 		"url": "/petunya.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Байєр",
 		"id": 24
 	},
 	{
@@ -293,10 +341,12 @@
 		"url": "/ckop.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 589,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "кг",
+		"maker": "Нертус",
 		"id": 25
 	},
 	{
@@ -305,10 +355,12 @@
 		"url": "/ckop2.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 200,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "л",
+		"maker": "Басф",
 		"id": 26
 	},
 	{
@@ -317,10 +369,12 @@
 		"url": "/xopyc.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Адама Україна",
 		"id": 27
 	},
 	{
@@ -329,10 +383,12 @@
 		"url": "/ckop.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 589,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "кг",
+		"maker": "Байєр",
 		"id": 28
 	},
 	{
@@ -341,10 +397,12 @@
 		"url": "/ckop2.png",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
+		"culture": "Скор 250 ЕС к.э.",
 		"cost": 200,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "л",
+		"maker": "Штефес",
 		"id": 29
 	},
 	{
@@ -353,10 +411,12 @@
 		"url": "/xopyc.png",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
+		"culture": "Петунія Софістика F1",
 		"cost": 20,
 		"amount": 1,
 		"stocked": "B наявності",
 		"unit": "шт",
+		"maker": "Нертус",
 		"id": 30
 	}
 ]
