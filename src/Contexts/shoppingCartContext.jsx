@@ -1,5 +1,5 @@
-import { useContext } from 'react';
-import { createContext, useState } from 'react';
+import { createContext, useState, useContext } from 'react';
+import PropTypes from 'prop-types';
 
 const CartContext = createContext();
 const cartId = '22aaf1cb-9e0e-44c3-a4e9-490a336b7685';
@@ -19,24 +19,22 @@ const CartContextProvider = (props) => {
 	const [showAlert, setShowAlert] = useState(null);
 
 	const append = (product, quantity = 1) => {
-		// нужно проверить, нет ли уже такого товара в корзине
 		const itemIndex = cartItems.findIndex(value => value.id === product.id);
-		if (itemIndex < 0) { // такого товара еще нет
+		if (itemIndex < 0) {
 			const newItem = {
 				...product,
 				quantity: quantity
 			};
 			setCartItemsInternal([...cartItems, newItem]);
-		} else { // такой товар уже есть
+		} else {
 			const newItem = {
 				...cartItems[itemIndex],
 				quantity: cartItems[itemIndex].quantity + quantity
 			};
-			const newCart = cartItems.slice(); // копия массива cartItems
+			const newCart = cartItems.slice();
 			newCart.splice(itemIndex, 1, newItem);
 			setCartItemsInternal(newCart);
 		}
-		// setShowAlert(cartItems.name + ' добавлен в корзину');
 	};
 
 	const remove = (id) => {
@@ -68,7 +66,6 @@ const CartContextProvider = (props) => {
 		setCartItems(cartItems);
 	}
 
-	// контекст, который будет доступен всем потомкам
 	const value = {
 		items: cartItems,
 		append: append,
@@ -94,4 +91,6 @@ const useCartContext = () => useContext(CartContext);
 
 export { useCartContext, CartContextProvider };
 
-
+CartContextProvider.propTypes = {
+	children: PropTypes.node.isRequired
+};

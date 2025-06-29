@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 export default function FavouriteItem({ product }) {
 	FavouriteItem.propTypes = {
-		product: PropTypes.string
+		product: PropTypes.object.isRequired
 	}
 	const cart = useCartContext();
 	const favourit = useFavouritContext();

@@ -1,4 +1,3 @@
-
 import './circle.css';
 import Counter from '../Counter/Counter';
 import PropTypes from 'prop-types';

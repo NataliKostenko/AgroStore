@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 export default function OrderCartItem({ product }) {
 	OrderCartItem.propTypes = {
-		product: PropTypes.string
+		product: PropTypes.object.isRequired
 	}
 	const cart = useCartContext();
 	return <div className='orderCartItem'>

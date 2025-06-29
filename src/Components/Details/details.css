@@ -22,7 +22,6 @@
 	height: 350px;
 	border-radius: 20px;
 	box-shadow: 0px 0px 8px 0px #00000026;
-
 }
 
 .activProduct {
@@ -53,7 +52,6 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-
 }
 
 .costBoxProduct {
@@ -107,7 +105,6 @@
 .manufacturer {
 	display: flex;
 	flex-direction: column;
-
 }
 
 .titleBox {
@@ -139,7 +136,6 @@
 	display: flex;
 	flex-direction: column;
 }
-
 
 .manufacturerPaymentBox {
 	display: flex;

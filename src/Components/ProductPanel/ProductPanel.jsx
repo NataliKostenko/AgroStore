@@ -25,9 +25,7 @@ export default function ProductPanel({ url }) {
 		loadData();
 	}, [url]);
 
-	// 🔎 Поиск
 	useEffect(() => {
-		console.log('Filters:', filters);
 		filterAndSort();
 	}, [searchQuery, filters, items, sortOption]);
 

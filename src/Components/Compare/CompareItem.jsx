@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 export default function CompareItem({ product }) {
 	CompareItem.propTypes = {
-		product: PropTypes.string
+		product: PropTypes.object.isRequired
 	}
 	const cart = useCartContext();
 	const compare = useCompareContext();

@@ -1,5 +1,5 @@
-import { useContext } from 'react';
-import { createContext, useState } from 'react';
+import { createContext, useState, useContext } from 'react';
+import PropTypes from 'prop-types';
 
 const compareContext = createContext();
 const compareId = '22aaf1cb-9e0e-44c3-a4e9-490a336b7796';
@@ -74,5 +74,8 @@ const CompareContextProvider = (props) => {
 	);
 }
 
+CompareContextProvider.propTypes = {
+	children: PropTypes.node.isRequired
+};
 const useCompareContext = () => useContext(compareContext);
 export { useCompareContext, CompareContextProvider };

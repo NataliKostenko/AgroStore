@@ -12,5 +12,4 @@ export default function PersonalAccountPanelItem(props) {
 		<Link to={props.link}>
 			{props.text}
 		</Link></div>
-
 }

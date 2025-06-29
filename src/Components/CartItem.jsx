@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 export default function CartItem({ product }) {
 	CartItem.propTypes = {
-		product: PropTypes.string,
+		product: PropTypes.object.isRequired,
 	}
 
 	const cart = useCartContext();
@@ -20,7 +20,9 @@ export default function CartItem({ product }) {
 			<button onClick={() => {
 				setNumber(number - 1);
 				cart.append(product, - 1)
-			}}>-</button>
+			}}
+				disabled={number === 0}
+			>-</button>
 			<p>{number}</p>
 			<button onClick={() => {
 				setNumber(number + 1);
