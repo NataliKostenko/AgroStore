@@ -1,8 +1,9 @@
-import H1 from '../../H1/h1';
-import ButtonBody from '../../buttonBody/buttonBody';
-import './passwordAccount.css'
+import H1 from '../../Components/H1/H1';
+import ButtonBody from '../../Components/ButtonBody/ButtonBody';
+import './passwordAccount.css';
 
 export default function PasswordAccont() {
+
 	return <div className='passwordChangePage'>
 		<H1 text={'Змінити пароль'} />
 		<div className='passwordChangeBlock'>

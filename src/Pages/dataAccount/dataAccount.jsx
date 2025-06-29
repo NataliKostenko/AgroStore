@@ -1,6 +1,6 @@
-import H1 from '../../H1/h1'
-import ButtonBody from '../../buttonBody/buttonBody'
-import './dataAccount.css'
+import H1 from '../../Components/H1/H1';
+import ButtonBody from '../../Components/ButtonBody/ButtonBody';
+import './dataAccount.css';
 
 export default function DataAccount() {
 	return <div className='dataAccountPage'>
@@ -13,6 +13,5 @@ export default function DataAccount() {
 			<input type='text' name='address' placeholder='Адреса для доставки &#42;' className='address' required></input>
 			<ButtonBody type={'submit'} link={''} text={'Зберегти'} />
 		</form >
-
 	</div >
 }

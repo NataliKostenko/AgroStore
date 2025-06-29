@@ -2,51 +2,61 @@
 	{
 		"type": "partners",
 		"url": "/adama.png",
-		"alt": "photo"
+		"alt": "photo",
+		"id": 1
 	},
 	{
 		"type": "partners",
 		"url": "/basf.png",
-		"alt": "photo"
+		"alt": "photo",
+		"id": 2
 	},
 	{
 		"type": "partners",
 		"url": "/dekalb.png",
-		"alt": "photo"
+		"alt": "photo",
+		"id": 3
 	},
 	{
 		"type": "partners",
 		"url": "/lidea.png",
-		"alt": "photo"
+		"alt": "photo",
+		"id": 4
 	},
 	{
 		"type": "partners",
 		"url": "/rodonit.png",
-		"alt": "photo"
+		"alt": "photo",
+		"id": 5
 	},
 	{
 		"type": "partners",
 		"url": "/adama.png",
-		"alt": "photo"
+		"alt": "photo",
+		"id": 6
 	},
 	{
 		"type": "partners",
 		"url": "/basf.png",
-		"alt": "photo"
+		"alt": "photo",
+		"id": 7
 	},
 	{
 		"type": "partners",
 		"url": "/dekalb.png",
-		"alt": "photo"
+		"alt": "photo",
+		"id": 8
 	},
 	{
 		"type": "partners",
 		"url": "/lidea.png",
-		"alt": "photo"
+		"alt": "photo",
+		"id": 9
 	},
 	{
 		"type": "partners",
 		"url": "/rodonit.png",
-		"alt": "photo"
+		"alt": "photo",
+		"id": 10
 	}
 ]

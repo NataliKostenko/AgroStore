@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import H1 from '../../H1/h1';
-import ButtonBody from '../../buttonBody/buttonBody';
+import H1 from '../../Components/H1/H1';
+import ButtonBody from '../../Components/ButtonBody/ButtonBody';
 import './registrationPage.css';
 
 export default function RegistrationPage() {
@@ -9,11 +9,10 @@ export default function RegistrationPage() {
 		<H1 text={'Реєстрація'} />
 		<p className='registrationPageText'>
 			Увійдіть, щоб використовувати всі можливості особистого кабінету:
-			відстеження замовлень, налаштування передплати, зв'язки з соціальними
+			відстеження замовлень, налаштування передплати, зв&#39;язки з соціальними
 			мережами та інші. Ми ніколи і за жодних умов не розголошуємо особисті дані клієнтів.
 			Контактна інформація буде використана тільки для оформлення замовлень та зручнішої роботи з сайтом
 		</p>
-
 		<form className='registrationForm'>
 			<input type='text' name='name' placeholder='Ім’я &#42;' className='name' required></input>
 			<input type='text' name='surname' placeholder='Прізвище' className='surname'></input>
@@ -21,7 +20,6 @@ export default function RegistrationPage() {
 			<input type='text' name='mail' placeholder='E-mail &#42;' className='mail' required></input>
 			<input type='password' name='password' placeholder='Пароль &#42;' className='password' required></input>
 			<input type='password' name='password' placeholder='Підтвердити пароль' className='password'></input>
-
 			<p className='permission'>
 				<input type='checkbox' checked={checked} onChange={() => setChecked(!checked)} id='permission' />
 				<label htmlFor='permission' >я згоден на обробку і захист <span>персональних даних</span></label></p>

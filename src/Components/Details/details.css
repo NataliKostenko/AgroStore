@@ -1,0 +1,236 @@
+.aboutProduct {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.infoProduct {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+	padding-bottom: 5%;
+	justify-content: space-between;
+}
+
+.pictureProduct {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+	height: 350px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px 0px #00000026;
+}
+
+.activProduct {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	padding-right: 3%;
+}
+
+.costProduct {
+	font-family: Montserrat;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30.48px;
+	text-align: left;
+	color: #84BE51;
+}
+
+.activProductIcon {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.iconBoxProduct {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.costBoxProduct {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17.07px;
+	text-align: left;
+	color: #000000;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.availableProduct {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.availableProduct p {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17.07px;
+	color: #00000080;
+}
+
+.activProduct h3 {
+	font-family: Montserrat;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 42.67px;
+	color: #000000;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.boxOrderProduct {
+	border-style: solid;
+	border-color: #0000001A;
+	width: 100%;
+	height: 200px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 5%;
+}
+
+.manufacturer {
+	display: flex;
+	flex-direction: column;
+}
+
+.titleBox {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17.07px;
+	text-align: left;
+	color: #000000;
+}
+
+.manufacturerName {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 60%;
+}
+
+.textBoxOrderProduct {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17.07px;
+	text-align: left;
+	color: #00000080;
+}
+
+.payment {
+	display: flex;
+	flex-direction: column;
+}
+
+.manufacturerPaymentBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 40%;
+}
+
+.delivery {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border-left: 1px solid #0000001A;
+	width: 50%;
+	padding-left: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+	.aboutProduct {
+		width: 90%;
+	}
+
+	.infoProduct {
+		flex-direction: column;
+	}
+
+	.pictureProduct {
+		align-self: center;
+	}
+
+	.activProduct {
+		width: 100%;
+	}
+
+	.boxOrderProduct {
+		width: 95%;
+	}
+
+	.manufacturerName {
+		width: 100%;
+	}
+
+	.activProductIcon {
+		width: 70%;
+	}
+
+	.tabs .tabsContent .dataAccountForm {
+		height: auto;
+	}
+
+	.tabs .tabsContent .dataAccountForm input,
+	.tabs .tabsContent .dataAccountForm textarea {
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.pictureProduct {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.boxOrderProduct .delivery button .button {
+		width: 165px;
+	}
+
+	.tabButton,
+	.tabButtonActive {
+		width: 144px;
+	}
+
+	.boxOrderProduct {
+		flex-direction: column;
+		height: auto;
+		width: max-content;
+	}
+
+	.iconBoxProduct {
+		flex-direction: column;
+	}
+
+	.activProductIcon {
+		width: 100%;
+	}
+
+	.delivery {
+		padding-bottom: 3%;
+		border-left: none;
+	}
+
+	.costBoxProduct {
+		flex-direction: row;
+		width: 100%;
+		align-items: baseline;
+		justify-content: space-around;
+	}
+}

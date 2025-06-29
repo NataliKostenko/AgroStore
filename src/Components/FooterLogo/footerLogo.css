@@ -1,0 +1,20 @@
+.footerLogo {
+	display: flex;
+	flex-direction: column;
+}
+
+.footerLogo img {
+	width: 109px;
+	height: 49px;
+}
+
+.footerLogoText {
+	color: rgba(0, 0, 0, 0.60);
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 221px;
+	height: 66px;
+}

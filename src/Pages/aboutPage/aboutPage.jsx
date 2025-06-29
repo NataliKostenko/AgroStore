@@ -1,7 +1,7 @@
 import './aboutPage.css';
-import ImgSection2 from '../../imgSection2/imgSection2'
-import H1 from '../../H1/h1'
-import ButtonBody from '../../buttonBody/buttonBody';
+import ImgSection2 from '../../Components/ImgSection2/ImgSection2';
+import H1 from '../../Components/H1/H1';
+import ButtonBody from '../../Components/ButtonBody/ButtonBody';
 
 export default function About() {
 	return (
@@ -15,22 +15,18 @@ export default function About() {
 						Ми не боїмось труднощів і викликів.
 						Тому навіть складний ковідний період,
 						світова пандемія не стали на заваді успішному старту.</p>
-
 					<p>	Отже,<span> ми — сміливі, ми — драйвові,</span> ми — ті,
 						що розвивають рослинництво та допомагають ставати успішними
 						тисячам вітчизняних аграріїв.</p>
-
 					<p><span>	Бачення:</span> компанія ТОВ “ДАМАР АГРОТРЕЙД”
 						тримає курс на підвищення престижності, довіри до засобів захисту
 						рослин made in UA. Прагнемо, аби в кожному регіоні України наш споживач
 						мав доступ до якісної продукції та консалтингу від фахівців команди.</p>
-
 					<p><span>Місія:</span> усе продуктове портфоліо, консультативні
 						послуги ТОВ “ДАМАР АГРОТРЕЙД” направлені на підвищення рентабельності
 						рослинництва в мінливих кліматичних умовах України. Також ставимо собі
 						завдання підвищувати обізнаність клієнтів щодо сучасних методів ведення
 						рослинництва...</p>
-
 				</div>
 				<ButtonBody link={'/moreAboutCompany'} text={'Докладніше'} type={undefined} />
 			</div>

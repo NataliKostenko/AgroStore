@@ -1,8 +1,8 @@
-import H1 from '../../H1/h1';
-import ButtonBody from '../../buttonBody/buttonBody';
+import H1 from '../../Components/H1/H1';
+import ButtonBody from '../../Components/ButtonBody/ButtonBody';
 import './order.css';
-import OrderCartItem from './orderCartItem'
-import { useCartContext } from '../../shoppingCartContext';
+import OrderCartItem from '../../Components/OrderCartItem';
+import { useCartContext } from '../../Contexts/shoppingCartContext';
 
 export default function Order() {
 	const cart = useCartContext();
@@ -78,7 +78,7 @@ export default function Order() {
 					<p>Pазом товарів: <span>{cart.getTotalQuantity()}</span></p>
 					<p>До сплати: <span>{cart.getTotalAmount()} грн.</span></p>
 				</div>
-				<ButtonBody link='/orderFinal' type='button' text='Підтвердити замовлення' />
+				<ButtonBody link='/orderFinal' type='button' text='Підтвердити замовлення' onClick={() => cart.clear()} />
 			</div>
 		</div>
 	</div>

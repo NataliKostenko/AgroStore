@@ -1,6 +1,6 @@
 import './plantsProtectingTools.css';
-import H1 from '../../H1/h1';
-import PlantsProtectingToolsItem from './plantsProtectingToolsItem';
+import H1 from '../../Components/H1/H1';
+import PlantsProtectingToolsItem from '../../Components/PlantsProtectingTools/PlantsProtectingToolsItem';
 
 export default function PlantsProtectingTools() {
 	const items = [

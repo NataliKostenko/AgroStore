@@ -1,0 +1,94 @@
+a {
+	text-decoration: none;
+}
+
+.card {
+	width: 255px;
+	height: 355px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ffff;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
+	cursor: pointer;
+}
+
+.card:hover {
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cardItem {
+	margin-left: 75%;
+}
+
+.scalesIcon {
+	margin-left: 75%;
+}
+
+.cardText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 185px;
+	height: 150px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 20px;
+	background-color: #8C32130F;
+}
+
+.cardText p {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: left;
+	color: #000000;
+	margin-bottom: 0px;
+}
+
+.cardText .stocked {
+	color: #359d6a;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	margin-bottom: 16px;
+	margin-top: 0px;
+}
+
+.cardItems {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+
+.price {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-right: auto;
+}
+
+.price .cost {
+	color: #84BE51;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0;
+}
+
+.price .amount {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+}
+
+.cardText svg {
+	border: none;
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}
