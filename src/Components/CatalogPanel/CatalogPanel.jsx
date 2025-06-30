@@ -1,5 +1,5 @@
 import './catalogPanel.css';
-import MenuItem from '../Menu/menuItem';
+import MenuItem from '../Menu/MenuItem';
 import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
