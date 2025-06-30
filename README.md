@@ -1,8 +1,46 @@
-# React + Vite
+# Інтернет-магазин
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Проєкт створено з навчальною метою для 
+демонстрації основ роботи з React.
 
-Currently, two official plugins are available:
+Це багатосторінковий, адаптивний веб-додаток інтернет-магазину 
+з основними функціями, необхідними для зручного онлайн-шопінгу. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Використані локальні JSON-дані.
+
+
+## Технології
+
+- JavaScript
+
+- React
+
+- Vite 
+
+- React Router 
+
+
+## Основні функції
+
+- Пошук товарів
+
+- Каталог товарів
+
+- Додавання товарів у кошик
+
+- Позначення товарів як улюблених
+
+- Порівняння товарів між собою
+
+- Видалення товарів із кошика, обраного та порівняння
+
+- Форма реєстрації користувача
+
+- Авторизація та зміна паролю
+
+- Сторінка оформлення замовлення
+
+- Фінальна сторінка після оформлення замовлення
+
+
+ Додаток розгорнуто за адресою <https://agro.kostenko.link/>
