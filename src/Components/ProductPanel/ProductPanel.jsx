@@ -37,6 +37,10 @@ export default function ProductPanel({ url }) {
 		setCurrentPage(pageParam);
 	}, [pageParam]);
 
+	useEffect(() => {
+		setCurrentPage(pageParam);
+	}, [pageParam]);
+
 	const filterAndSort = () => {
 		const lower = searchQuery.trim().toLowerCase();
 
@@ -55,7 +59,7 @@ export default function ProductPanel({ url }) {
 		let result = items.filter(item => matchesSearch(item) && matchesFilters(item));
 		result = applySort(result, sortOption);
 		setFilteredItems(result);
-		setSearchParams({ page: '1' });
+		setSearchParams({ page: pageParam });
 	};
 
 	const applySort = (itemsToSort, option) => {
