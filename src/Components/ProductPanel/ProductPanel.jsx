@@ -1,13 +1,9 @@
 import { useEffect, useState, useContext } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { useSearchParams } from 'react-router-dom';
 import Pagination from '../Pagination/Pagination';
 import PropTypes from 'prop-types';
 import { SearchContext } from '../../Contexts/searchContext';
 import { FilterContext } from '../../Contexts/filterContext';
-import CardProduct from '../CardProduct/CardProduct';
-import './productPanel.css';
-
 import CardProduct from '../CardProduct/CardProduct';
 import './productPanel.css';
 
@@ -18,9 +14,6 @@ export default function ProductPanel({ url }) {
 	const itemsPerPage = 9;
 	const { searchQuery } = useContext(SearchContext);
 	const { filters } = useContext(FilterContext);
-	const [searchParams, setSearchParams] = useSearchParams();
-	const pageParam = parseInt(searchParams.get('page')) || 1;
-	const [currentPage, setCurrentPage] = useState(pageParam);
 	const [searchParams, setSearchParams] = useSearchParams();
 	const pageParam = parseInt(searchParams.get('page')) || 1;
 	const [currentPage, setCurrentPage] = useState(pageParam);
@@ -73,9 +66,7 @@ export default function ProductPanel({ url }) {
 		switch (option) {
 			case '2':
 				return [...itemsToSort].sort((a, b) => a.cost - b.cost);
-				return [...itemsToSort].sort((a, b) => a.cost - b.cost);
 			case '3':
-				return [...itemsToSort].sort((a, b) => b.cost - a.cost);
 				return [...itemsToSort].sort((a, b) => b.cost - a.cost);
 			default:
 				return itemsToSort;
@@ -90,10 +81,6 @@ export default function ProductPanel({ url }) {
 	};
 
 	const visibleItems = list(filteredItems, itemsPerPage, currentPage);
-
-	const handlePageChange = (page) => {
-		setSearchParams({ page: page.toString() });
-	};
 
 	const handlePageChange = (page) => {
 		setSearchParams({ page: page.toString() });
@@ -123,7 +110,6 @@ export default function ProductPanel({ url }) {
 					itemsPerPage={itemsPerPage}
 					totalItems={filteredItems.length}
 					currentPage={currentPage}
-					onPageChange={handlePageChange}
 					onPageChange={handlePageChange}
 				/>
 			)}
