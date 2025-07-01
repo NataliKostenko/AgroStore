@@ -1,18 +1,22 @@
-import './productPanel.css';
-import CardProduct from '../CardProduct/CardProduct';
 import { useEffect, useState, useContext } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import Pagination from '../Pagination/Pagination';
 import PropTypes from 'prop-types';
 import { SearchContext } from '../../Contexts/searchContext';
 import { FilterContext } from '../../Contexts/filterContext';
+import CardProduct from '../CardProduct/CardProduct';
+import './productPanel.css';
+
 export default function ProductPanel({ url }) {
 	const [items, setItems] = useState([]);
 	const [filteredItems, setFilteredItems] = useState([]);
-	const [currentPage, setCurrentPage] = useState(1);
 	const [sortOption, setSortOption] = useState('1');
 	const itemsPerPage = 9;
 	const { searchQuery } = useContext(SearchContext);
 	const { filters } = useContext(FilterContext);
+	const [searchParams, setSearchParams] = useSearchParams();
+	const pageParam = parseInt(searchParams.get('page')) || 1;
+	const [currentPage, setCurrentPage] = useState(pageParam);
 
 	useEffect(() => {
 		const loadData = async () => {
@@ -29,6 +33,10 @@ export default function ProductPanel({ url }) {
 		filterAndSort();
 	}, [searchQuery, filters, items, sortOption]);
 
+	useEffect(() => {
+		setCurrentPage(pageParam);
+	}, [pageParam]);
+
 	const filterAndSort = () => {
 		const lower = searchQuery.trim().toLowerCase();
 
@@ -39,7 +47,6 @@ export default function ProductPanel({ url }) {
 
 			for (const [key, values] of Object.entries(filters)) {
 				if (values.size === 0) continue;
-
 				if (!values.has(item[key])) return false;
 			}
 			return true;
@@ -48,15 +55,15 @@ export default function ProductPanel({ url }) {
 		let result = items.filter(item => matchesSearch(item) && matchesFilters(item));
 		result = applySort(result, sortOption);
 		setFilteredItems(result);
-		setCurrentPage(1);
+		setSearchParams({ page: '1' });
 	};
 
 	const applySort = (itemsToSort, option) => {
 		switch (option) {
 			case '2':
-				return itemsToSort.sort((a, b) => a.cost - b.cost);
+				return [...itemsToSort].sort((a, b) => a.cost - b.cost);
 			case '3':
-				return itemsToSort.sort((a, b) => b.cost - a.cost);
+				return [...itemsToSort].sort((a, b) => b.cost - a.cost);
 			default:
 				return itemsToSort;
 		}
@@ -70,6 +77,10 @@ export default function ProductPanel({ url }) {
 	};
 
 	const visibleItems = list(filteredItems, itemsPerPage, currentPage);
+
+	const handlePageChange = (page) => {
+		setSearchParams({ page: page.toString() });
+	};
 
 	return (
 		<div className='productPanelWrap'>
@@ -95,7 +106,7 @@ export default function ProductPanel({ url }) {
 					itemsPerPage={itemsPerPage}
 					totalItems={filteredItems.length}
 					currentPage={currentPage}
-					onPageChange={setCurrentPage}
+					onPageChange={handlePageChange}
 				/>
 			)}
 		</div>
