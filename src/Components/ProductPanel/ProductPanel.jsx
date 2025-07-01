@@ -55,7 +55,7 @@ export default function ProductPanel({ url }) {
 		let result = items.filter(item => matchesSearch(item) && matchesFilters(item));
 		result = applySort(result, sortOption);
 		setFilteredItems(result);
-		setSearchParams({ page: '1' });
+		setSearchParams({ page: pageParam });
 	};
 
 	const applySort = (itemsToSort, option) => {
