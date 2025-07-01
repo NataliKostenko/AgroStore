@@ -120,4 +120,3 @@ export default function ProductPanel({ url }) {
 ProductPanel.propTypes = {
 	url: PropTypes.string.isRequired
 };
-
