@@ -19,11 +19,9 @@ export default function CatalogPanel(props) {
 		loadData();
 	}, []);
 
-	return <>
-		<p className='pCatalogPanel'>Показано 621 товарів</p>
-		<div className='catalogPanel'>
-			<ul className='catalogMenu'>
-				{items.map((item, index) => <MenuItem itemName={item.name} key={index} itemLink={item.link} />)}
-			</ul>
-		</div></>
+	return <div className='catalogPanel'>
+		<ul className='catalogMenu'>
+			{items.map((item, index) => <MenuItem itemName={item.name} key={index} itemLink={item.link} />)}
+		</ul>
+	</div>
 }
