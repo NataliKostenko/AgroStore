@@ -6,3 +6,15 @@ textarea {
 	margin-bottom: 20px;
 	padding-left: 20px;
 }
+
+.dataAccountForm input.errorInput,
+.dataAccountForm textarea.errorInput {
+	border: 2px solid red !important;
+	background-color: #fff5f5 !important;
+}
+
+.success {
+	color: green;
+	font-size: 14px;
+	margin: 10px 0;
+}

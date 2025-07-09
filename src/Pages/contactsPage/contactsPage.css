@@ -64,6 +64,12 @@ textarea {
 	width: 550px;
 }
 
+.registrationForm input.errorInput,
+.registrationForm textarea.errorInput {
+	border: 2px solid red !important;
+	background-color: #fff5f5 !important;
+}
+
 @media screen and (max-width: 1024px) {
 	.contactsPageBlock .dataAccountForm {
 		height: auto;

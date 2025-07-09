@@ -27,7 +27,7 @@
 	width: 50%;
 }
 
-.selectPay {
+.orderWrap .orderForm .dataAccountForm .selectPay {
 	display: flex;
 	flex-direction: column;
 }
@@ -47,7 +47,7 @@
 	color: #000000;
 }
 
-.selectPay label {
+.orderWrap .orderForm .selectPay label {
 	font-family: Montserrat;
 	font-size: 16px;
 	font-weight: 400;
@@ -55,8 +55,9 @@
 	text-align: left;
 }
 
-.selectPay input {
+.orderWrap .orderForm .selectPay input {
 	margin-right: 2%;
+	height: auto;
 }
 
 .orderPage .orderForm .dataAccountForm {
@@ -173,6 +174,12 @@
 	width: 260px;
 	color: white;
 	border-color: white;
+}
+
+input.errorInput,
+select.errorInput {
+	border: 2px solid red !important;
+	background-color: #fff5f5;
 }
 
 @media screen and (max-width: 1024px) {

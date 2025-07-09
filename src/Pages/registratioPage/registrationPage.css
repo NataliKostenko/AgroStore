@@ -69,8 +69,24 @@
 	padding: 1px
 }
 
-input:required {
+.required {
 	color: #e9573f;
+}
+
+.formGroup {
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.errorInput {
+	border: 2px solid red !important;
+	background-color: #fff5f5 !important;
+}
+
+.success {
+	color: green;
+	font-size: 14px;
+	margin: 10px 0;
 }
 
 @media screen and (max-width: 1024px) {
