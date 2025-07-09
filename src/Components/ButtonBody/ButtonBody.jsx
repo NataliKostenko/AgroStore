@@ -1,21 +1,29 @@
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import './buttonBody.css';
-import PropTypes from 'prop-types';
 
-export default function ButtonBody(props) {
-	const style = {
-		width: props.width
+export default function ButtonBody({ width, type = 'button', link, text, onClick }) {
+	const style = { width };
+	if (link && type !== 'submit') {
+		return (
+			<button type={type} className='buttonBody' style={style} onClick={onClick}>
+				<Link to={link} className='aButtonBody' onClick={onClick}>
+					{text}
+				</Link>
+			</button >
+		);
 	}
-	ButtonBody.propTypes = {
-		width: PropTypes.number,
-		type: PropTypes.string,
-		link: PropTypes.string,
-		text: PropTypes.string,
-		onClick: PropTypes.func
-	}
-	return <button className='buttonBody' type={props.type} style={style} onClick={props.onClick} >
-		<Link className='aButtonBody' to={props.link}>
-			{props.text}
-		</Link>
-	</button>
+	return (
+		<button type={type} className='buttonBody' style={style} onClick={onClick}>
+			{text}
+		</button>
+	);
 }
+
+ButtonBody.propTypes = {
+	width: PropTypes.number,
+	type: PropTypes.string,
+	link: PropTypes.string,
+	text: PropTypes.string.isRequired,
+	onClick: PropTypes.func,
+};

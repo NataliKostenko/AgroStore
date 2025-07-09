@@ -48,6 +48,17 @@
 
 }
 
+.dataAccountForm input.errorInput {
+	border: 2px solid red !important;
+	background-color: #fff5f5 !important;
+}
+
+.success {
+	color: green;
+	font-size: 14px;
+	margin: 10px 0;
+}
+
 @media screen and (max-width: 600px) {
 	.dataAccountPage {
 		width: 90%;
