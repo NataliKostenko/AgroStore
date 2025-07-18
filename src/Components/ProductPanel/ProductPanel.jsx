@@ -6,7 +6,7 @@ import { SearchContext } from '../../Contexts/searchContext';
 import { FilterContext } from '../../Contexts/filterContext';
 import CardProduct from '../CardProduct/CardProduct';
 import './productPanel.css';
-
+import PanelFilter from '../Filter/PanelFilters';
 export default function ProductPanel({ url }) {
 	const [items, setItems] = useState([]);
 	const [filteredItems, setFilteredItems] = useState([]);
@@ -88,11 +88,17 @@ export default function ProductPanel({ url }) {
 
 	return (
 		<div className='productPanelWrap'>
-			<select className='productPanelSelect' value={sortOption} onChange={handleSortChange}>
-				<option value="1">Сортувати за ціною</option>
-				<option value="2">Ціна за зростанням</option>
-				<option value="3">Ціна за спаданням</option>
-			</select>
+			<div className='selection'>
+				<div className='filterSm'>
+					<PanelFilter />
+				</div>
+				<select className='productPanelSelect' value={sortOption} onChange={handleSortChange}>
+					<option value="1">Сортувати за ціною</option>
+					<option value="2">Ціна за зростанням</option>
+					<option value="3">Ціна за спаданням</option>
+				</select>
+			</div>
+
 			<div className='productPanel'>
 				{visibleItems.length > 0 ? (
 					visibleItems.map((item, index) => (

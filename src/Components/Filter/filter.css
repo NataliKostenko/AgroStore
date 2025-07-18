@@ -46,17 +46,16 @@ input[type="checkbox"]:checked::before {
 	text-align: left;
 	color: rgba(0, 0, 0, 0.60);
 	margin-left: 15px;
-
 }
 
 .filter {
 	width: 255px;
+	--filter-width: 255px;
 	height: max-content;
 	box-shadow: 0px 0px 8px 0px #00000026;
 	border-radius: 20px;
 	background-color: #FFFFFF;
 	cursor: pointer;
-
 }
 
 .filterTitle {
@@ -97,14 +96,61 @@ input[type="checkbox"]:checked::before {
 
 	.filterTitle {
 		width: 100%;
+		border-radius: 20px 20px 20px 20px;
 	}
 
-	.filter {
-		width: 100%;
+	.filter:hover .filterTitle {
+		border-radius: 20px 20px 0px 0px;
 	}
 
 	.filter:hover .filterText {
 		display: flex;
 		flex-direction: column;
+		width: var(--filter-width);
+		height: max-content;
+		box-shadow: 0px 0px 8px 0px #00000026;
+		border-radius: 0px 0px 20px 20px;
+		background-color: #FFFFFF;
+		cursor: pointer;
+		position: absolute;
+		padding-left: 1%;
+		box-sizing: border-box;
+		z-index: 10;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.filter {
+		width: 473px;
+		--filter-width: 473px;
+	}
+
+	.filter:hover .filterText {
+		width: var(--filter-width);
+		padding-left: 10%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.filter {
+		width: 253px;
+		--filter-width: 253px;
+	}
+
+	.filter:hover .filterText {
+		width: var(--filter-width);
+		padding-left: 10%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.filter {
+		width: 247px;
+		--filter-width: 247px;
+	}
+
+	.filter:hover .filterText {
+		width: var(--filter-width);
+		padding-left: 10%;
 	}
 }

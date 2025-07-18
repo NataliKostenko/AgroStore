@@ -31,7 +31,6 @@
 	line-height: 21.94px;
 	text-align: left;
 	color: #1E6140;
-
 }
 
 .contactsBlockTextBasic {
@@ -84,8 +83,6 @@ textarea {
 	.contactsSubBlock {
 		flex-direction: column;
 	}
-
-
 }
 
 @media screen and (max-width: 600px) {
@@ -108,5 +105,9 @@ textarea {
 
 	.contactsPageBlock .dataAccountForm .address {
 		width: 100%;
+	}
+
+	.formGroup {
+		width: 95%;
 	}
 }

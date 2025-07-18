@@ -10,9 +10,10 @@ export default function PlantsProtectingToolsPageCatalog() {
 		<div className='pageCatalog'>
 			<div className='sideBarCatalog'>
 				<CatalogPanel url={'../../Data/categories.json'} />
-				<PanelFilter />
+
+				<div className='filterMl'> <PanelFilter /> </div>
 			</div>
 			<ProductPanel url={"../../Data/products.json"} />
 		</div>
 	</>
-}
+} 

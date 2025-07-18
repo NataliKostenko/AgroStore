@@ -18,7 +18,6 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 550px;
-	height: 260px;
 	margin-left: 75px;
 	margin-top: 4%;
 }
@@ -45,7 +44,6 @@
 
 .dataAccountForm .address {
 	width: 510px;
-
 }
 
 .dataAccountForm input.errorInput {
