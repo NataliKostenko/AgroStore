@@ -21,7 +21,7 @@ export default function ButtonBody({ width, type = 'button', link, text, onClick
 }
 
 ButtonBody.propTypes = {
-	width: PropTypes.number,
+	width: PropTypes.string,
 	type: PropTypes.string,
 	link: PropTypes.string,
 	text: PropTypes.string.isRequired,

@@ -10,6 +10,10 @@
 	margin-right: 5%;
 }
 
+.filterMl {
+	display: flex;
+}
+
 @media screen and (max-width: 1024px) {
 	.sideBarCatalog button {
 		margin-top: 5%;
@@ -18,5 +22,9 @@
 
 	.pageCatalog {
 		flex-direction: column;
+	}
+
+	.filterMl {
+		display: none;
 	}
 }
