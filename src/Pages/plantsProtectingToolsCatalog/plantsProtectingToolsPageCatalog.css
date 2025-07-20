@@ -14,6 +14,10 @@
 	display: flex;
 }
 
+.filterSm {
+	display: none;
+}
+
 @media screen and (max-width: 1024px) {
 	.sideBarCatalog button {
 		margin-top: 5%;

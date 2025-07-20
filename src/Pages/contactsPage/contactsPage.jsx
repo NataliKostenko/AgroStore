@@ -139,7 +139,7 @@ export default function ContactsPage() {
 				{submitted ? (
 					<p className='success'>✅ Повідомлення надіслано!</p>
 				) : (
-					<ButtonBody type='submit' link='' text='Відправити' width='100%' />
+					<ButtonBody type='submit' link='' text='Відправити' />
 				)}
 			</form>
 		</div>
