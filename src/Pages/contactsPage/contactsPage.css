@@ -63,6 +63,11 @@ textarea {
 	width: 550px;
 }
 
+.contactsPageBlock .dataAccountForm .buttonBody {
+	width: 534px;
+}
+
+
 .registrationForm input.errorInput,
 .registrationForm textarea.errorInput {
 	border: 2px solid red !important;
@@ -108,6 +113,19 @@ textarea {
 	}
 
 	.formGroup {
-		width: 95%;
+		width: 100%;
+	}
+
+	.contactsPageBlock .dataAccountForm .formGroup input {
+		box-sizing: border-box;
+	}
+
+	.contactsPageBlock .dataAccountForm .formGroup textarea {
+		box-sizing: border-box;
+		resize: vertical;
+	}
+
+	.contactsPageBlock .dataAccountForm .buttonBody {
+		width: 100%;
 	}
 }

@@ -121,20 +121,24 @@ input[type="checkbox"]:checked::before {
 
 @media screen and (max-width: 600px) {
 	.filter {
-		width: 473px;
-		--filter-width: 473px;
+		width: 482px;
+		--filter-width: 482px;
 	}
 
 	.filter:hover .filterText {
 		width: var(--filter-width);
 		padding-left: 10%;
 	}
+
+	.catalogPage .h1 {
+		margin-left: 10%;
+	}
 }
 
 @media screen and (max-width: 425px) {
 	.filter {
-		width: 253px;
-		--filter-width: 253px;
+		width: 260px;
+		--filter-width: 260px;
 	}
 
 	.filter:hover .filterText {
@@ -145,8 +149,8 @@ input[type="checkbox"]:checked::before {
 
 @media screen and (max-width: 400px) {
 	.filter {
-		width: 247px;
-		--filter-width: 247px;
+		width: 255px;
+		--filter-width: 255px;
 	}
 
 	.filter:hover .filterText {
