@@ -1,6 +1,6 @@
 {
 	"type": "goods",
-	"url": "/ckop.png",
+	"url": "/ckop.webp",
 	"alt": "photo",
 	"name": "Скор 250 ЕС к.э.",
 	"cost": 589,
@@ -8,7 +8,7 @@
 	"stocked": "B наявності",
 	"id": 2,
 	"manufacturer": "ФМС Украина",
-	"logo": "/fmc.png",
+	"logo": "/fmc.webp",
 	"discription": "../#",
 	"unit": "л"
 }

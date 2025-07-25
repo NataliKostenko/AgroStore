@@ -5,7 +5,7 @@ export default function HistoryAccountItem() {
 
 	return <div className='orderCartItem'>
 		<div className='productInCart'>
-			<img src='/xopyc.png' />
+			<img src='/xopyc.webp' />
 			<div className='orderCarentWrap'>
 				<div className='orderItemInfo'>
 					<p className='orderCarentproductText'>кількість</p>

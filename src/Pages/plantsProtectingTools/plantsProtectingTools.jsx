@@ -5,49 +5,49 @@ import PlantsProtectingToolsItem from '../../Components/PlantsProtectingTools/Pl
 export default function PlantsProtectingTools() {
 	const items = [
 		{
-			url: './PlantsProtecting1.png',
+			url: './PlantsProtecting1.webp',
 			alt: 'protecting image',
 			text: 'Гербіциди',
 			link: './herbicides'
 		},
 		{
-			url: './PlantsProtecting2.png',
+			url: './PlantsProtecting2.webp',
 			alt: 'protecting image',
 			text: 'Фунгіциди',
 			link: './fungicides'
 		},
 		{
-			url: './PlantsProtecting3.png',
+			url: './PlantsProtecting3.webp',
 			alt: 'protecting image',
 			text: 'Інсектициди',
 			link: './Інсектициди'
 		},
 		{
-			url: './PlantsProtecting4.png',
+			url: './PlantsProtecting4.webp',
 			alt: 'protecting image',
 			text: 'Десиканти',
 			link: './Десиканти'
 		},
 		{
-			url: './PlantsProtecting5.png',
+			url: './PlantsProtecting5.webp',
 			alt: 'protecting image',
 			text: 'Протруювачі',
 			link: './Протруювачі'
 		},
 		{
-			url: './PlantsProtecting6.png',
+			url: './PlantsProtecting6.webp',
 			alt: 'protecting image',
 			text: 'Родентициди',
 			link: './Родентициди'
 		},
 		{
-			url: './PlantsProtecting7.png',
+			url: './PlantsProtecting7.webp',
 			alt: 'protecting image',
 			text: 'Ретарданти',
 			link: './Ретарданти'
 		},
 		{
-			url: './PlantsProtecting8.png',
+			url: './PlantsProtecting8.webp',
 			alt: 'protecting image',
 			text: 'Ад’юванти',
 			link: './Ад’юванти'

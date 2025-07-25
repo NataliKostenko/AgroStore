@@ -3,8 +3,8 @@ import './paymentBox.css';
 export default function PaymentBox() {
 
 	return <div className='paymentBox'>
-		<img src="../../visa.png" alt="visa" />
-		<img src="../../mastercard.png" alt="mastercard" />
-		<img src="../../pay.png" alt="pay" />
+		<img src="../../visa.webp" alt="visa" />
+		<img src="../../mastercard.webp" alt="mastercard" />
+		<img src="../../pay.webp" alt="pay" />
 	</div>
 }
