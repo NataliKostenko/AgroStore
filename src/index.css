@@ -10,7 +10,7 @@ body {
 }
 
 .backgroundMain {
-  background-image: url('/el.png');
+  /*   background-color: #f2d7c321; */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

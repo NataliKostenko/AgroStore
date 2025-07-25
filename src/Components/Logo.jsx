@@ -1,4 +1,4 @@
-import LogoImg from '/Logo.png';
+import LogoImg from '/Logo.webp';
 
 export default function Logo() {
 	return (

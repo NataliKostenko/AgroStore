@@ -71,7 +71,7 @@
 }
 
 .plantsProtectingInfo {
-	background-image: url(/trees.png);
+	background-image: url(/trees.webp);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -91,7 +91,7 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	height: 350px;
+	height: auto;
 	width: 43%;
 	margin: 0 auto;
 	background: rgb(0 0 0 / 15%);

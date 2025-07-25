@@ -101,10 +101,10 @@ export default function PaymentAndDeliveryPage() {
 						можуть становити ± 8%.
 					</p>
 				</div>
-				< img src='/UP.png' />
+				< img src='/UP.webp' />
 			</div>
 			<div className='deliveryP'>
-				<img src='/NP.png' />
+				<img src='/NP.webp' />
 				<div className='deliveryPText'>
 					<h5>Доставка комерційними транспортними компаніями</h5>
 					<p>тримання замовлення відбувається в філіях компаній. Оплату за доставку здійснює клієнт.

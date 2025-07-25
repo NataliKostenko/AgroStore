@@ -4,7 +4,7 @@ import ButtonDelete from './ButtonDelete';
 export default function CarentOrdersItem() {
 	return <div className='orderCartItem'>
 		<div className='productInCart'>
-			<img src='/xopyc.png' />
+			<img src='/xopyc.webp' />
 			<div className='orderCarentWrap'>
 				<p className='orderCarentproductName'>Гербіцид Комманд®, ФМС УКРАЇНА</p>
 				<div className='orderItemInfo'>

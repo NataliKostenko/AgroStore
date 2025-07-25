@@ -1,6 +1,6 @@
 {
 	"type": "goods",
-	"url": "/xopyc.png",
+	"url": "/xopyc.webp",
 	"alt": "photo",
 	"name": "Петунія Софістика F1",
 	"cost": 20,
@@ -9,6 +9,6 @@
 	"unit": "шт",
 	"id": 12,
 	"manufacturer": "ФМС Украина",
-	"logo": "/fmc.png",
+	"logo": "/fmc.webp",
 	"discription": "../#"
 }

@@ -2,7 +2,7 @@
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/petunya.png",
+		"url": "/petunya.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
@@ -16,7 +16,7 @@
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/ckop.png",
+		"url": "/ckop.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -30,7 +30,7 @@
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/ckop2.png",
+		"url": "/ckop2.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -44,7 +44,7 @@
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/sunflower.jpg",
+		"url": "/sunflower.webp",
 		"alt": "photo",
 		"name": "Соняшник",
 		"culture": "Соняшник",
@@ -58,7 +58,7 @@
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/beans.jpg",
+		"url": "/beans.webp",
 		"alt": "photo",
 		"name": "Боби",
 		"culture": "Боби",
@@ -72,7 +72,7 @@
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/corn.jpg",
+		"url": "/corn.webp",
 		"alt": "photo",
 		"name": "Кукурудза",
 		"culture": "Кукурудза",
@@ -86,7 +86,7 @@
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/ckop2.png",
+		"url": "/ckop2.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -100,7 +100,7 @@
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/soybean.jpg",
+		"url": "/soybean.webp",
 		"alt": "photo",
 		"name": "Соя",
 		"culture": "Соя",
@@ -114,7 +114,7 @@
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/petunya.png",
+		"url": "/petunya.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
@@ -128,7 +128,7 @@
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/ckop.png",
+		"url": "/ckop.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -142,7 +142,7 @@
 	{
 		"type": "goods",
 		"status": " ",
-		"url": "/ckop2.png",
+		"url": "/ckop2.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -156,7 +156,7 @@
 	{
 		"type": "goods",
 		"status": " ",
-		"url": "/xopyc.png",
+		"url": "/xopyc.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
@@ -170,7 +170,7 @@
 	{
 		"type": "goods",
 		"status": " ",
-		"url": "/ckop.png",
+		"url": "/ckop.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -184,7 +184,7 @@
 	{
 		"type": "goods",
 		"status": " ",
-		"url": "/ckop2.png",
+		"url": "/ckop2.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -198,7 +198,7 @@
 	{
 		"type": "goods",
 		"status": " ",
-		"url": "/xopyc.png",
+		"url": "/xopyc.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
@@ -212,7 +212,7 @@
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/petunya.png",
+		"url": "/petunya.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
@@ -226,7 +226,7 @@
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/ckop.png",
+		"url": "/ckop.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -240,7 +240,7 @@
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/ckop2.png",
+		"url": "/ckop2.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -254,7 +254,7 @@
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/xopyc.png",
+		"url": "/xopyc.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
@@ -268,7 +268,7 @@
 	{
 		"type": "goods",
 		"status": "novelties",
-		"url": "/petunya.png",
+		"url": "/petunya.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
@@ -282,7 +282,7 @@
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/ckop.png",
+		"url": "/ckop.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -296,7 +296,7 @@
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/ckop2.png",
+		"url": "/ckop2.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -310,7 +310,7 @@
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/xopyc.png",
+		"url": "/xopyc.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
@@ -324,7 +324,7 @@
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/petunya.png",
+		"url": "/petunya.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
@@ -338,7 +338,7 @@
 	{
 		"type": "goods",
 		"status": "promotions",
-		"url": "/ckop.png",
+		"url": "/ckop.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -352,7 +352,7 @@
 	{
 		"type": "goods",
 		"status": " ",
-		"url": "/ckop2.png",
+		"url": "/ckop2.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -366,7 +366,7 @@
 	{
 		"type": "goods",
 		"status": " ",
-		"url": "/xopyc.png",
+		"url": "/xopyc.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
@@ -380,7 +380,7 @@
 	{
 		"type": "goods",
 		"status": " ",
-		"url": "/ckop.png",
+		"url": "/ckop.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -394,7 +394,7 @@
 	{
 		"type": "goods",
 		"status": " ",
-		"url": "/ckop2.png",
+		"url": "/ckop2.webp",
 		"alt": "photo",
 		"name": "Скор 250 ЕС к.э.",
 		"culture": "Скор 250 ЕС к.э.",
@@ -408,7 +408,7 @@
 	{
 		"type": "goods",
 		"status": " ",
-		"url": "/xopyc.png",
+		"url": "/xopyc.webp",
 		"alt": "photo",
 		"name": "Петунія Софістика F1",
 		"culture": "Петунія Софістика F1",
